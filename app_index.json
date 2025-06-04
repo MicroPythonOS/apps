@@ -175,29 +175,51 @@
 }
 
 ,{
-"name": "Update",
-"publisher": "ACME Inc",
+"name": "OS Update",
+"publisher": "MicroPythonOS",
 "short_description": "Operating System Updater",
 "long_description": "",
-"icon_url": "http://demo.lnpiggy.com:2121/apps/com.example.osupdate_0.0.2.mpk_icon_64x64.png",
-"download_url": "http://demo.lnpiggy.com:2121/apps/com.example.osupdate_0.0.2.mpk",
-"fullname": "com.example.osupdate",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/icons/com.micropythonos.osupdate_0.0.2_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/mpks/com.micropythonos.osupdate_0.0.2.mpk",
+"fullname": "com.micropythonos.osupdate",
 "version": "0.0.2",
-"entrypoint": "assets/osupdate.py",
-"category": "osupdate"
+"category": "osupdate",
+"activities": [
+    {
+      "entrypoint": "assets/osupdate.py",
+      "classname": "OSUpdate",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
 }
 
 ,{
 "name": "WiFi",
-"publisher": "ACME Inc",
-"short_description": "Wireless Network Configuration",
-"long_description": "",
-"icon_url": "http://demo.lnpiggy.com:2121/apps/com.example.wificonf_0.0.2.mpk_icon_64x64.png",
-"download_url": "http://demo.lnpiggy.com:2121/apps/com.example.wificonf_0.0.2.mpk",
-"fullname": "com.example.wificonf",
-"version": "0.0.2",
-"entrypoint": "assets/wificonf.py",
-"category": "wificonf"
+"publisher": "MicroPythonOS",
+"short_description": "WiFi Network Configuration",
+"long_description": "Scans for wireless networks, shows a list of SSIDs, allows for password entry, and connecting.",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.wificonf/icons/com.micropythonos.wificonf_0.0.3_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.wificonf/mpks/com.micropythonos.wificonf_0.0.3.mpk",
+"fullname": "com.micropythonos.wificonf",
+"version": "0.0.3",
+"category": "wificonf",
+"activities": [
+    {
+      "entrypoint": "assets/wificonf.py",
+      "classname": "WifiConfig",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
 }
 
 ]
