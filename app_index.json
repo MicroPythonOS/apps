@@ -179,10 +179,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Operating System Updater",
 "long_description": "",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/icons/com.micropythonos.osupdate_0.0.2_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/mpks/com.micropythonos.osupdate_0.0.2.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/icons/com.micropythonos.osupdate_0.0.3_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/mpks/com.micropythonos.osupdate_0.0.3.mpk",
 "fullname": "com.micropythonos.osupdate",
-"version": "0.0.2",
+"version": "0.0.3",
 "category": "osupdate",
 "activities": [
     {
