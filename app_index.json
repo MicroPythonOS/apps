@@ -88,7 +88,7 @@
 "activities": [
     {
       "entrypoint": "assets/displaywallet.py",
-      "classname": "MainActivity",
+      "classname": "DisplayWallet",
       "intent_filters": [
         {
           "action": "main",
@@ -139,7 +139,7 @@
 "activities": [
     {
       "entrypoint": "assets/appstore.py",
-      "classname": "MainActivity",
+      "classname": "AppStore",
       "intent_filters": [
         {
           "action": "main",
@@ -163,7 +163,7 @@
 "activities": [
     {
       "entrypoint": "assets/launcher.py",
-      "classname": "MainActivity",
+      "classname": "Launcher",
       "intent_filters": [
         {
           "action": "main",
