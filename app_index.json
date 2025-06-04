@@ -103,9 +103,9 @@
 "publisher": "MicroPythonOS",
 "short_description": "Camera with QR decoding",
 "long_description": "Camera for both internal camera's and webcams, that includes QR decoding.",
-"icon_url": "https://apps.micropythonos.com/com.micropython.camera/icons/com.micropython.camera_0.0.3_64x64.png",
-"download_url": "https://apps.micropythonos.com/com.micropython.camera/mpks/com.micropython.camera_0.0.3.mpk",
-"fullname": "com.micropython.camera",
+"icon_url": "https://apps.micropythonos.com/com.micropythonos.camera/icons/com.micropythonos.camera_0.0.3_64x64.png",
+"download_url": "https://apps.micropythonos.com/com.micropythonos.camera/mpks/com.micropythonos.camera_0.0.3.mpk",
+"fullname": "com.micropythonos.camera",
 "version": "0.0.3",
 "category": "camera",
 "activities": [
