@@ -79,10 +79,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Image Viewer",
 "long_description": "Opens and shows images on the display.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.0.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.0.1.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.0.2_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.0.2.mpk",
 "fullname": "com.micropythonos.imageview",
-"version": "0.0.1",
+"version": "0.0.2",
 "category": "graphics",
 "activities": [
     {
@@ -103,10 +103,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Store for App(lication)s",
 "long_description": "",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/icons/com.micropythonos.appstore_0.0.3_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/mpks/com.micropythonos.appstore_0.0.3.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/icons/com.micropythonos.appstore_0.0.4_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/mpks/com.micropythonos.appstore_0.0.4.mpk",
 "fullname": "com.micropythonos.appstore",
-"version": "0.0.3",
+"version": "0.0.4",
 "category": "appstore",
 "activities": [
     {
@@ -171,14 +171,38 @@
 }
 
 ,{
+"name": "Settings",
+"publisher": "MicroPythonOS",
+"short_description": "View and change MicroPythonOS settings.",
+"long_description": "This is the official settings app for MicroPythonOS. It allows you to configure all aspects of MicroPythonOS.",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.settings/icons/com.micropythonos.settings_0.0.1_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.settings/mpks/com.micropythonos.settings_0.0.1.mpk",
+"fullname": "com.micropythonos.settings",
+"version": "0.0.1",
+"category": "development",
+"activities": [
+    {
+      "entrypoint": "assets/settings.py",
+      "classname": "SettingsActivity",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+
+,{
 "name": "WiFi",
 "publisher": "MicroPythonOS",
 "short_description": "WiFi Network Configuration",
 "long_description": "Scans for wireless networks, shows a list of SSIDs, allows for password entry, and connecting.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/icons/com.micropythonos.wifi_0.0.4_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/mpks/com.micropythonos.wifi_0.0.4.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/icons/com.micropythonos.wifi_0.0.5_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/mpks/com.micropythonos.wifi_0.0.5.mpk",
 "fullname": "com.micropythonos.wifi",
-"version": "0.0.4",
+"version": "0.0.5",
 "category": "networking",
 "activities": [
     {
