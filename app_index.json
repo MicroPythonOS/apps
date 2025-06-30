@@ -51,6 +51,30 @@
 }
 
 ,{
+"name": "Draw",
+"publisher": "MicroPythonOS",
+"short_description": "Simple drawing app",
+"long_description": "Draw simple shapes on the screen.",
+"icon_url": "http://demo.lnpiggy.com:2121/apps/com.micropythonos.draw_0.0.1.mpk_icon_64x64.png",
+"download_url": "http://demo.lnpiggy.com:2121/apps/com.micropythonos.draw_0.0.1.mpk",
+"fullname": "com.micropythonos.draw",
+"version": "0.0.1",
+"category": "art",
+"activities": [
+    {
+      "entrypoint": "assets/draw.py",
+      "classname": "Draw",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+
+,{
 "name": "HelloWorld",
 "publisher": "MicroPythonOS",
 "short_description": "Minimal app",
@@ -112,6 +136,30 @@
     {
       "entrypoint": "assets/imu.py",
       "classname": "IMU",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+
+,{
+"name": "About",
+"publisher": "MicroPythonOS",
+"short_description": "Info about MicroPythonOS",
+"long_description": "Shows current MicroPythonOS version, MicroPython version, build date and other useful info..",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.helloworld/icons/com.micropythonos.about_0.0.1_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.helloworld/mpks/com.micropythonos.about_0.0.1.mpk",
+"fullname": "com.micropythonos.about",
+"version": "0.0.1",
+"category": "development",
+"activities": [
+    {
+      "entrypoint": "assets/about.py",
+      "classname": "About",
       "intent_filters": [
         {
           "action": "main",
