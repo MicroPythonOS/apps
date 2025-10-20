@@ -4,10 +4,10 @@
 "publisher": "LightningPiggy Foundation",
 "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
 "long_description": "See https://www.LightningPiggy.com",
-"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.0.11_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.0.11.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.0.12_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.0.12.mpk",
 "fullname": "com.lightningpiggy.displaywallet",
-"version": "0.0.11",
+"version": "0.0.12",
 "category": "finance",
 "activities": [
     {
@@ -147,6 +147,30 @@
 }
 
 ,{
+"name": "Kilculator",
+"publisher": "QuasiKili",
+"short_description": "Scientific and Standard Calculator",
+"long_description": "A calculator app with both scientific and standard modes.",
+"icon_url": "https://apps.micropythonos.com/apps/com.quasikili.kilculator/icons/com.quasikili.kilculator_0.0.1_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.quasikili.kilculator/mpks/com.quasikili.kilculator_0.0.1.mpk",
+"fullname": "com.quasikili.kilculator",
+"version": "0.0.1",
+"category": "utilities",
+"activities": [
+    {
+      "entrypoint": "assets/kilculator.py",
+      "classname": "Kilculator",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+
+,{
 "name": "About",
 "publisher": "MicroPythonOS",
 "short_description": "Info about MicroPythonOS",
@@ -174,11 +198,11 @@
 "name": "AppStore",
 "publisher": "MicroPythonOS",
 "short_description": "Store for App(lication)s",
-"long_description": "",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/icons/com.micropythonos.appstore_0.0.6_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/mpks/com.micropythonos.appstore_0.0.6.mpk",
+"long_description": "This is the place to discover, find, install, uninstall and upgrade all the apps that make your device useless.",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/icons/com.micropythonos.appstore_0.0.7_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/mpks/com.micropythonos.appstore_0.0.7.mpk",
 "fullname": "com.micropythonos.appstore",
-"version": "0.0.6",
+"version": "0.0.7",
 "category": "appstore",
 "activities": [
     {
@@ -199,10 +223,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Simple launcher to start apps.",
 "long_description": "",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.launcher/icons/com.micropythonos.launcher_0.0.5_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.launcher/mpks/com.micropythonos.launcher_0.0.5.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.launcher/icons/com.micropythonos.launcher_0.0.6_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.launcher/mpks/com.micropythonos.launcher_0.0.6.mpk",
 "fullname": "com.micropythonos.launcher",
-"version": "0.0.5",
+"version": "0.0.6",
 "category": "launcher",
 "activities": [
     {
@@ -223,10 +247,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Operating System Updater",
 "long_description": "Updates the operating system in a safe way, to a secondary partition. After the update, the device is restarted. If the system starts up successfully, it is marked as valid and kept. Otherwise, a rollback to the old, primary partition is performed.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/icons/com.micropythonos.osupdate_0.0.5_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/mpks/com.micropythonos.osupdate_0.0.5.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/icons/com.micropythonos.osupdate_0.0.6_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/mpks/com.micropythonos.osupdate_0.0.6.mpk",
 "fullname": "com.micropythonos.osupdate",
-"version": "0.0.5",
+"version": "0.0.6",
 "category": "osupdate",
 "activities": [
     {
@@ -271,10 +295,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "WiFi Network Configuration",
 "long_description": "Scans for wireless networks, shows a list of SSIDs, allows for password entry, and connecting.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/icons/com.micropythonos.wifi_0.0.6_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/mpks/com.micropythonos.wifi_0.0.6.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/icons/com.micropythonos.wifi_0.0.7_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/mpks/com.micropythonos.wifi_0.0.7.mpk",
 "fullname": "com.micropythonos.wifi",
-"version": "0.0.6",
+"version": "0.0.7",
 "category": "networking",
 "activities": [
     {
