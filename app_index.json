@@ -170,6 +170,29 @@
   ]
 }
 ,{
+  "name": "Quasi Nametag",
+  "publisher": "QuasiKili",
+  "short_description": "Digital Nametag Display",
+  "long_description": "A customizable digital nametag with color selection.",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.0.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.0.1.mpk",
+  "fullname": "com.quasikili.quasinametag",
+  "version": "0.0.1",
+  "category": "utilities",
+  "activities": [
+    {
+      "entrypoint": "assets/quasinametag.py",
+      "classname": "QuasiNametag",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+,{
 "name": "About",
 "publisher": "MicroPythonOS",
 "short_description": "Info about MicroPythonOS",
