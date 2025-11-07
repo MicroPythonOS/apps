@@ -27,10 +27,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Camera with QR decoding",
 "long_description": "Camera for both internal camera's and webcams, that includes QR decoding.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/icons/com.micropythonos.camera_0.0.8_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/mpks/com.micropythonos.camera_0.0.8.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/icons/com.micropythonos.camera_0.0.9_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/mpks/com.micropythonos.camera_0.0.9.mpk",
 "fullname": "com.micropythonos.camera",
-"version": "0.0.8",
+"version": "0.0.9",
 "category": "camera",
 "activities": [
     {
@@ -55,10 +55,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Simple drawing app",
 "long_description": "Draw simple shapes on the screen.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.0.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/mpks/com.micropythonos.draw_0.0.1.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.0.2_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/mpks/com.micropythonos.draw_0.0.2.mpk",
 "fullname": "com.micropythonos.draw",
-"version": "0.0.1",
+"version": "0.0.2",
 "category": "graphics",
 "activities": [
     {
@@ -147,6 +147,53 @@
 }
 
 ,{
+"name": "Music Player",
+"publisher": "MicroPythonOS",
+"short_description": "Player audio files",
+"long_description": "Traverse around the filesystem and play audio files that you select.",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.0.1_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.0.1.mpk",
+"fullname": "com.micropythonos.musicplayer",
+"version": "0.0.1",
+"category": "development",
+"activities": [
+    {
+      "entrypoint": "assets/music_player.py",
+      "classname": "MusicPlayer",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+
+,{
+  "name": "Quasi Bird",
+  "publisher": "QuasiKili",
+  "short_description": "Flappy Bird Game",
+  "long_description": "A fun Flappy Bird clone with smooth physics. Tap to fly!",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.0.2.mpk",
+  "fullname": "com.quasikili.quasibird",
+  "version": "0.0.2",
+  "category": "games",
+  "activities": [
+    {
+      "entrypoint": "assets/quasibird.py",
+      "classname": "QuasiBird",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+,{
   "name": "Quasi Calculator",
   "publisher": "QuasiKili",
   "short_description": "Scientific and Standard Calculator",
@@ -160,6 +207,29 @@
     {
       "entrypoint": "assets/quasicalculator.py",
       "classname": "QuasiCalculator",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+,{
+"name": "Quasi Doodle",
+"publisher": "QuasiKili",
+"short_description": "Keyboard-controlled drawing app",
+"long_description": "Draw using arrow keys to move cursor and Enter to toggle drawing.",
+"icon_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/icons/com.quasikili.quasidoodle_0.0.1_64x64.png",
+"download_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/mpks/com.quasikili.quasidoodle_0.0.1.mpk",
+"fullname": "com.quasikili.quasidoodle",
+"version": "0.0.1",
+"category": "graphics",
+"activities": [
+    {
+      "entrypoint": "assets/quasidoodle.py",
+      "classname": "QuasiDoodle",
       "intent_filters": [
         {
           "action": "main",
@@ -192,148 +262,4 @@
     }
   ]
 }
-,{
-"name": "About",
-"publisher": "MicroPythonOS",
-"short_description": "Info about MicroPythonOS",
-"long_description": "Shows current MicroPythonOS version, MicroPython version, build date and other useful info..",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.about/icons/com.micropythonos.about_0.0.4_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.about/mpks/com.micropythonos.about_0.0.4.mpk",
-"fullname": "com.micropythonos.about",
-"version": "0.0.4",
-"category": "development",
-"activities": [
-    {
-      "entrypoint": "assets/about.py",
-      "classname": "About",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ]
-}
-
-,{
-"name": "AppStore",
-"publisher": "MicroPythonOS",
-"short_description": "Store for App(lication)s",
-"long_description": "This is the place to discover, find, install, uninstall and upgrade all the apps that make your device useless.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/icons/com.micropythonos.appstore_0.0.7_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.appstore/mpks/com.micropythonos.appstore_0.0.7.mpk",
-"fullname": "com.micropythonos.appstore",
-"version": "0.0.7",
-"category": "appstore",
-"activities": [
-    {
-      "entrypoint": "assets/appstore.py",
-      "classname": "AppStore",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ]
-}
-
-,{
-"name": "Launcher",
-"publisher": "MicroPythonOS",
-"short_description": "Simple launcher to start apps.",
-"long_description": "",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.launcher/icons/com.micropythonos.launcher_0.0.7_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.launcher/mpks/com.micropythonos.launcher_0.0.7.mpk",
-"fullname": "com.micropythonos.launcher",
-"version": "0.0.7",
-"category": "launcher",
-"activities": [
-    {
-      "entrypoint": "assets/launcher.py",
-      "classname": "Launcher",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ]
-}
-
-,{
-"name": "OSUpdate",
-"publisher": "MicroPythonOS",
-"short_description": "Operating System Updater",
-"long_description": "Updates the operating system in a safe way, to a secondary partition. After the update, the device is restarted. If the system starts up successfully, it is marked as valid and kept. Otherwise, a rollback to the old, primary partition is performed.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/icons/com.micropythonos.osupdate_0.0.6_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.osupdate/mpks/com.micropythonos.osupdate_0.0.6.mpk",
-"fullname": "com.micropythonos.osupdate",
-"version": "0.0.6",
-"category": "osupdate",
-"activities": [
-    {
-      "entrypoint": "assets/osupdate.py",
-      "classname": "OSUpdate",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ]
-}
-
-,{
-"name": "Settings",
-"publisher": "MicroPythonOS",
-"short_description": "View and change MicroPythonOS settings.",
-"long_description": "This is the official settings app for MicroPythonOS. It allows you to configure all aspects of MicroPythonOS.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.settings/icons/com.micropythonos.settings_0.0.4_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.settings/mpks/com.micropythonos.settings_0.0.4.mpk",
-"fullname": "com.micropythonos.settings",
-"version": "0.0.4",
-"category": "development",
-"activities": [
-    {
-      "entrypoint": "assets/settings.py",
-      "classname": "SettingsActivity",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ]
-}
-
-,{
-"name": "WiFi",
-"publisher": "MicroPythonOS",
-"short_description": "WiFi Network Configuration",
-"long_description": "Scans for wireless networks, shows a list of SSIDs, allows for password entry, and connecting.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/icons/com.micropythonos.wifi_0.0.7_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.wifi/mpks/com.micropythonos.wifi_0.0.7.mpk",
-"fullname": "com.micropythonos.wifi",
-"version": "0.0.7",
-"category": "networking",
-"activities": [
-    {
-      "entrypoint": "assets/wifi.py",
-      "classname": "WiFi",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ]
-}
-
 ]
