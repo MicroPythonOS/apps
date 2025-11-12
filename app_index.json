@@ -4,10 +4,10 @@
 "publisher": "LightningPiggy Foundation",
 "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
 "long_description": "See https://www.LightningPiggy.com",
-"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.0.13_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.0.13.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.0.15_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.0.15.mpk",
 "fullname": "com.lightningpiggy.displaywallet",
-"version": "0.0.13",
+"version": "0.0.15",
 "category": "finance",
 "activities": [
     {
@@ -207,29 +207,6 @@
     {
       "entrypoint": "assets/quasicalculator.py",
       "classname": "QuasiCalculator",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ]
-}
-,{
-"name": "Quasi Doodle",
-"publisher": "QuasiKili",
-"short_description": "Keyboard-controlled drawing app",
-"long_description": "Draw using arrow keys to move cursor and Enter to toggle drawing.",
-"icon_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/icons/com.quasikili.quasidoodle_0.0.1_64x64.png",
-"download_url": "https://apps.quasikili.com/apps/com.quasikili.quasidoodle/mpks/com.quasikili.quasidoodle_0.0.1.mpk",
-"fullname": "com.quasikili.quasidoodle",
-"version": "0.0.1",
-"category": "graphics",
-"activities": [
-    {
-      "entrypoint": "assets/quasidoodle.py",
-      "classname": "QuasiDoodle",
       "intent_filters": [
         {
           "action": "main",
