@@ -4,10 +4,10 @@
 "publisher": "LightningPiggy Foundation",
 "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
 "long_description": "See https://www.LightningPiggy.com",
-"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.0.17_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.0.17.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.1.0_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.1.0.mpk",
 "fullname": "com.lightningpiggy.displaywallet",
-"version": "0.0.17",
+"version": "0.1.0",
 "category": "finance",
 "activities": [
     {
@@ -220,10 +220,10 @@
   "publisher": "QuasiKili",
   "short_description": "Digital Nametag Display",
   "long_description": "A customizable digital nametag with color selection.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.0.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.0.1.mpk",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.0.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.0.3.mpk",
   "fullname": "com.quasikili.quasinametag",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "category": "utilities",
   "activities": [
     {
