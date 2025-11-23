@@ -102,10 +102,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Image Viewer",
 "long_description": "Opens and shows images on the display.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.0.3_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.0.3.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.0.4_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.0.4.mpk",
 "fullname": "com.micropythonos.imageview",
-"version": "0.0.3",
+"version": "0.0.4",
 "category": "graphics",
 "activities": [
     {
@@ -150,10 +150,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Player audio files",
 "long_description": "Traverse around the filesystem and play audio files that you select.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.0.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.0.1.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.0.2_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.0.2.mpk",
 "fullname": "com.micropythonos.musicplayer",
-"version": "0.0.1",
+"version": "0.0.2",
 "category": "development",
 "activities": [
     {
@@ -174,10 +174,10 @@
   "publisher": "QuasiKili",
   "short_description": "Flappy Bird Game",
   "long_description": "A fun Flappy Bird clone with smooth physics. Tap to fly!",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.0.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.0.3.mpk",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.0.4_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.0.4.mpk",
   "fullname": "com.quasikili.quasibird",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "category": "games",
   "activities": [
     {
@@ -220,10 +220,10 @@
   "publisher": "QuasiKili",
   "short_description": "Digital Nametag Display",
   "long_description": "A customizable digital nametag with color selection.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.0.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.0.3.mpk",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.0.4_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.0.4.mpk",
   "fullname": "com.quasikili.quasinametag",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "category": "utilities",
   "activities": [
     {
