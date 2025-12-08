@@ -4,10 +4,10 @@
 "publisher": "LightningPiggy Foundation",
 "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
 "long_description": "See https://www.LightningPiggy.com",
-"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.1.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.1.1.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.1.2_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.1.2.mpk",
 "fullname": "com.lightningpiggy.displaywallet",
-"version": "0.1.1",
+"version": "0.1.2",
 "category": "finance",
 "activities": [
     {
@@ -27,10 +27,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Camera with QR decoding",
 "long_description": "Camera for both internal camera's and webcams, that includes QR decoding.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/icons/com.micropythonos.camera_0.0.11_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/mpks/com.micropythonos.camera_0.0.11.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/icons/com.micropythonos.camera_0.1.0_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/mpks/com.micropythonos.camera_0.1.0.mpk",
 "fullname": "com.micropythonos.camera",
-"version": "0.0.11",
+"version": "0.1.0",
 "category": "camera",
 "activities": [
     {
@@ -46,6 +46,11 @@
           "category": "default"
         }
       ]
+    },
+    {
+      "entrypoint": "assets/camera_app.py",
+      "classname": "CameraSettingsActivity",
+      "intent_filters": []
     }
   ]
 }
@@ -102,10 +107,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Image Viewer",
 "long_description": "Opens and shows images on the display.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.0.4_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.0.4.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.0.5_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.0.5.mpk",
 "fullname": "com.micropythonos.imageview",
-"version": "0.0.4",
+"version": "0.0.5",
 "category": "graphics",
 "activities": [
     {
@@ -126,10 +131,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Inertial Measurement Unit Visualization",
 "long_description": "Visualize data from the Intertial Measurement Unit, also known as the accellerometer.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/icons/com.micropythonos.imu_0.0.2_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/mpks/com.micropythonos.imu_0.0.2.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/icons/com.micropythonos.imu_0.0.3_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/mpks/com.micropythonos.imu_0.0.3.mpk",
 "fullname": "com.micropythonos.imu",
-"version": "0.0.2",
+"version": "0.0.3",
 "category": "hardware",
 "activities": [
     {
@@ -150,10 +155,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Player audio files",
 "long_description": "Traverse around the filesystem and play audio files that you select.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.0.4_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.0.4.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.0.5_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.0.5.mpk",
 "fullname": "com.micropythonos.musicplayer",
-"version": "0.0.4",
+"version": "0.0.5",
 "category": "development",
 "activities": [
     {
