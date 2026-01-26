@@ -262,12 +262,12 @@
 },{
   "name": "Quasi Bird",
   "publisher": "QuasiKili",
-  "short_description": "Flappy Bird Game",
-  "long_description": "A fun Flappy Bird clone with smooth physics. Tap to fly!",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.0.5_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.0.5.mpk",
+  "short_description": "Bird Game",
+  "long_description": "A fun bird flying game with smooth physics. Tap to fly!",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.0.6_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.0.6.mpk",
   "fullname": "com.quasikili.quasibird",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "category": "games",
   "activities": [
     {
