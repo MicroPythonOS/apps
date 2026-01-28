@@ -283,6 +283,29 @@
   ]
 }
 ,{
+  "name": "Quasi Boats",
+  "publisher": "QuasiKili",
+  "short_description": "Boats puzzle game.",
+  "long_description": "All the yachts are blocking your way to the dock, move them around so you can reach the dock!",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasiboats/icons/com.quasikili.quasiboats_0.0.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasiboats/mpks/com.quasikili.quasiboats_0.0.1.mpk",
+  "fullname": "com.quasikili.quasiboats",
+  "version": "0.0.1",
+  "category": "games",
+  "activities": [
+    {
+      "entrypoint": "assets/quasiboats.py",
+      "classname": "QuasiBoats",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+,{
   "name": "Quasi Calculator",
   "publisher": "QuasiKili",
   "short_description": "Scientific and Standard Calculator",
