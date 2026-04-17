@@ -4,10 +4,10 @@
 "publisher": "LightningPiggy Foundation",
 "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
 "long_description": "See https://www.LightningPiggy.com",
-"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.2.5_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.2.5.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.2.6_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.2.6.mpk",
 "fullname": "com.lightningpiggy.displaywallet",
-"version": "0.2.5",
+"version": "0.2.6",
 "category": "finance",
 "activities": [
     {
@@ -220,12 +220,12 @@
   "long_description": "Simple IR remote with power and volume controls.",
   "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.irremote/icons/com.micropythonos.irremote_0.1.0_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.irremote/mpks/com.micropythonos.irremote_0.1.0.mpk",
-  "fullname": "com.micropythonos.irremote",
+  "fullname": "com.micropythonos.ir_remote",
   "version": "0.1.0",
   "category": "tools",
   "activities": [
     {
-      "entrypoint": "assets/irremote.py",
+      "entrypoint": "assets/ir_remote.py",
       "classname": "IRRemote",
       "intent_filters": [
         {
