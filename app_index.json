@@ -4,10 +4,10 @@
 "publisher": "LightningPiggy Foundation",
 "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
 "long_description": "See https://www.LightningPiggy.com",
-"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.2.6_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.2.6.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.3.0_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.3.0.mpk",
 "fullname": "com.lightningpiggy.displaywallet",
-"version": "0.2.6",
+"version": "0.3.0",
 "category": "finance",
 "activities": [
     {
@@ -218,10 +218,10 @@
   "publisher": "MicroPythonOS",
   "short_description": "Send IR commands",
   "long_description": "Simple IR remote with power and volume controls.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.irremote/icons/com.micropythonos.irremote_0.1.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.irremote/mpks/com.micropythonos.irremote_0.1.1.mpk",
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.irremote/icons/com.micropythonos.irremote_0.1.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.irremote/mpks/com.micropythonos.irremote_0.1.2.mpk",
   "fullname": "com.micropythonos.ir_remote",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "category": "tools",
   "activities": [
     {
@@ -313,10 +313,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Minimal app",
 "long_description": "Demonstrates the simplest app.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.2.2_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.2.2.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.2.3_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.2.3.mpk",
 "fullname": "com.micropythonos.showbattery",
-"version": "0.2.2",
+"version": "0.2.3",
 "category": "development",
 "activities": [
     {
@@ -337,10 +337,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Show installed fonts",
 "long_description": "Visualize the installed fonts so the user can check them out.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.0.5_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.0.5.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.1.0_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.1.0.mpk",
 "fullname": "com.micropythonos.showfonts",
-"version": "0.0.5",
+"version": "0.1.0",
 "category": "development",
 "activities": [
     {
@@ -379,14 +379,37 @@
     }
   ]
 },{
+"name": "Time of Flight",
+"publisher": "MicroPythonOS",
+"short_description": "Time-of-flight sensor demo",
+"long_description": "Shows off time-of-flight range imaging camera sensors by describing distance measurements per pixel based on round-trip light time.",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/icons/com.micropythonos.time_of_flight_0.0.1_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/mpks/com.micropythonos.time_of_flight_0.0.1.mpk",
+"fullname": "com.micropythonos.time_of_flight",
+"version": "0.0.1",
+"category": "development",
+"activities": [
+    {
+      "entrypoint": "assets/time_of_flight.py",
+      "classname": "TimeOfFlight",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+,{
   "name": "Quasi Bird",
   "publisher": "QuasiKili",
   "short_description": "Bird Game",
   "long_description": "A fun bird flying game with smooth physics. Tap to fly!",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.0.6_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.0.6.mpk",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.1.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.1.0.mpk",
   "fullname": "com.quasikili.quasibird",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "category": "games",
   "activities": [
     {
@@ -504,6 +527,30 @@
 "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.gyro/mpks/cz.ucw.pavel.gyro_0.0.1.mpk",
 "fullname": "cz.ucw.pavel.gyro",
 "version": "0.0.1",
+"category": "utilities",
+"activities": [
+    {
+      "entrypoint": "assets/main.py",
+      "classname": "Main",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
+
+,{
+"name": "Navstar",
+"publisher": "Pavel Machek",
+"short_description": "Simple navigation app.",
+"long_description": "Simple navigation app using data from NAVSTAR GPS and other GNSS systems.",
+"icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.0.2_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.0.2.mpk",
+"fullname": "cz.ucw.pavel.navstar",
+"version": "0.0.2",
 "category": "utilities",
 "activities": [
     {
