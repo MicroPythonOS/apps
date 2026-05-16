@@ -260,6 +260,29 @@
   ]
 }
 ,{
+    "name": "Lights Out",
+    "publisher": "MicroPythonOS",
+    "short_description": "Classic Lights Out puzzle game",
+    "long_description": "Turn off all the lights! Pressing a light toggles it and its neighbors. Solve each level with minimal moves.",
+    "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.0_64x64.png",
+    "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.0_64x64.mpk",
+    "fullname": "com.micropythonos.lights_out",
+    "version": "1.0.0",
+    "category": "games",
+    "activities": [
+        {
+            "entrypoint": "assets/lights_out.py",
+            "classname": "LightsOut",
+            "intent_filters": [
+                {
+                    "action": "main",
+                    "category": "launcher"
+                }
+            ]
+        }
+    ]
+}
+,{
 "name": "LoRa Chat",
 "publisher": "MicroPythonOS",
 "short_description": "Chat using LoRa",
@@ -383,10 +406,10 @@
 "publisher": "MicroPythonOS",
 "short_description": "Show installed fonts",
 "long_description": "Visualize the installed fonts so the user can check them out.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.1.0_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.1.0.mpk",
+"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.1.1_64x64.png",
+"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.1.1.mpk",
 "fullname": "com.micropythonos.showfonts",
-"version": "0.1.0",
+"version": "0.1.1",
 "category": "development",
 "activities": [
     {
