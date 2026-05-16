@@ -264,10 +264,10 @@
     "publisher": "MicroPythonOS",
     "short_description": "Classic Lights Out puzzle game",
     "long_description": "Turn off all the lights! Pressing a light toggles it and its neighbors. Solve each level with minimal moves.",
-    "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.0_64x64.png",
-    "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.0_64x64.mpk",
+    "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.1_64x64.png",
+    "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.1_64x64.mpk",
     "fullname": "com.micropythonos.lights_out",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "category": "games",
     "activities": [
         {
@@ -311,10 +311,10 @@
     "publisher": "MicroPythonOS",
     "short_description": "Classic card memory game",
     "long_description": "Find all matching pairs of symbols by remembering their positions.",
-    "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.2.5_64x64.png",
-    "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.2.5_64x64.mpk",
+    "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.2.6_64x64.png",
+    "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.2.6_64x64.mpk",
     "fullname": "com.micropythonos.memory",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "category": "games",
     "activities": [
         {
