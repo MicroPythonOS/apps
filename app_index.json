@@ -1,15 +1,13 @@
 [
 {
-"name": "Lightning Piggy",
-"publisher": "LightningPiggy Foundation",
-"short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
-"long_description": "See https://www.LightningPiggy.com",
-"icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.4.2_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.4.2.mpk",
-"fullname": "com.lightningpiggy.displaywallet",
-"version": "0.4.2",
-"category": "finance",
-"activities": [
+  "name": "Lightning Piggy",
+  "publisher": "LightningPiggy Foundation",
+  "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
+  "long_description": "See https://www.LightningPiggy.com",
+  "fullname": "com.lightningpiggy.displaywallet",
+  "version": "0.4.3",
+  "category": "finance",
+  "activities": [
     {
       "entrypoint": "assets/displaywallet.py",
       "classname": "DisplayWallet",
@@ -20,19 +18,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.4.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.4.3.mpk"
 }
 ,{
-"name": "Camera",
-"publisher": "MicroPythonOS",
-"short_description": "Camera with QR decoding",
-"long_description": "Camera for both internal camera's and webcams, that includes QR decoding.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/icons/com.micropythonos.camera_0.2.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/mpks/com.micropythonos.camera_0.2.1.mpk",
-"fullname": "com.micropythonos.camera",
-"version": "0.2.1",
-"category": "camera",
-"activities": [
+  "name": "Camera",
+  "publisher": "MicroPythonOS",
+  "short_description": "Camera with QR decoding",
+  "long_description": "Camera for both internal camera's and webcams, that includes QR decoding.",
+  "fullname": "com.micropythonos.camera",
+  "version": "0.2.2",
+  "category": "camera",
+  "activities": [
     {
       "entrypoint": "assets/camera_app.py",
       "classname": "CameraActivity",
@@ -43,20 +41,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/icons/com.micropythonos.camera_0.2.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.camera/mpks/com.micropythonos.camera_0.2.2.mpk"
 }
-
 ,{
-"name": "Confetti",
-"publisher": "MicroPythonOS",
-"short_description": "Just shows confetti",
-"long_description": "Nothing special, just a demo.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/icons/com.micropythonos.confetti_0.0.5_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/mpks/com.micropythonos.confetti_0.0.5.mpk",
-"fullname": "com.micropythonos.confetti",
-"version": "0.0.5",
-"category": "games",
-"activities": [
+  "name": "Confetti",
+  "publisher": "MicroPythonOS",
+  "short_description": "Just shows confetti",
+  "long_description": "Nothing special, just a demo.",
+  "fullname": "com.micropythonos.confetti",
+  "version": "0.1.0",
+  "category": "games",
+  "activities": [
     {
       "entrypoint": "assets/confetti_app.py",
       "classname": "ConfettiApp",
@@ -67,20 +64,21 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/icons/com.micropythonos.confetti_0.1.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/mpks/com.micropythonos.confetti_0.1.0.mpk"
 }
-
 ,{
-"name": "Connect 4",
-"publisher": "MicroPythonOS",
-"short_description": "Classic Connect 4 game",
-"long_description": "Play Connect 4 against the computer with three difficulty levels: Easy, Medium, and Hard. Drop colored discs and try to connect four in a row!",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/icons/com.micropythonos.connect4_0.1.0_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/mpks/com.micropythonos.connect4_0.1.0.mpk",
-"fullname": "com.micropythonos.connect4",
-"version": "0.1.0",
-"category": "games",
-"activities": [
+  "name": "Connect 4",
+  "publisher": "MicroPythonOS",
+  "short_description": "Classic Connect 4 game",
+  "long_description": "Play Connect 4 against the computer with three difficulty levels: Easy, Medium, and Hard. Drop colored discs and try to connect four in a row!",
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/icons/com.micropythonos.connect4_0.1.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/mpks/com.micropythonos.connect4_0.1.1.mpk",
+  "fullname": "com.micropythonos.connect4",
+  "version": "0.1.1",
+  "category": "games",
+  "activities": [
     {
       "entrypoint": "assets/connect4.py",
       "classname": "Connect4",
@@ -98,10 +96,8 @@
   "publisher": "MicroPythonOS",
   "short_description": "DJ Addon demo",
   "long_description": "Shows off the capabilities of the Fri3d DJ Addon 2026.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.0.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.0.1.mpk",
   "fullname": "com.micropythonos.dj_addon",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "category": "development",
   "activities": [
     {
@@ -114,19 +110,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.1.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.1.0.mpk"
 }
 ,{
-"name": "Draw",
-"publisher": "MicroPythonOS",
-"short_description": "Simple drawing app",
-"long_description": "Draw simple shapes on the screen.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.1.0_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/mpks/com.micropythonos.draw_0.1.0.mpk",
-"fullname": "com.micropythonos.draw",
-"version": "0.1.0",
-"category": "graphics",
-"activities": [
+  "name": "Draw",
+  "publisher": "MicroPythonOS",
+  "short_description": "Simple drawing app",
+  "long_description": "Draw simple shapes on the screen.",
+  "fullname": "com.micropythonos.draw",
+  "version": "0.1.1",
+  "category": "graphics",
+  "activities": [
     {
       "entrypoint": "assets/draw.py",
       "classname": "Draw",
@@ -137,20 +133,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.1.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/mpks/com.micropythonos.draw_0.1.1.mpk"
 }
-
 ,{
-"name": "ESPNowChat",
-"publisher": "MicroPythonOS",
-"short_description": "ESPNow Chat",
-"long_description": "Simple chat app using EspNow protocol for communication between devices.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.espnow_chat/icons/com.micropythonos.espnow_chat_0.1.0_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.espnow_chat/mpks/com.micropythonos.espnow_chat_0.1.0.mpk",
-"fullname": "com.micropythonos.espnow_chat",
-"version": "0.1.0",
-"category": "development",
-"activities": [
+  "name": "ESPNowChat",
+  "publisher": "MicroPythonOS",
+  "short_description": "ESPNow Chat",
+  "long_description": "Simple chat app using EspNow protocol for communication between devices.",
+  "fullname": "com.micropythonos.espnow_chat",
+  "version": "0.1.1",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/espnow_chat.py",
       "classname": "EspNowChat",
@@ -161,20 +156,42 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.espnow_chat/icons/com.micropythonos.espnow_chat_0.1.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.espnow_chat/mpks/com.micropythonos.espnow_chat_0.1.1.mpk"
 }
-
 ,{
-"name": "HelloWorld",
-"publisher": "MicroPythonOS",
-"short_description": "Minimal app",
-"long_description": "Demonstrates the simplest app.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.helloworld/icons/com.micropythonos.helloworld_0.0.5_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.helloworld/mpks/com.micropythonos.helloworld_0.0.5.mpk",
-"fullname": "com.micropythonos.helloworld",
-"version": "0.0.5",
-"category": "development",
-"activities": [
+  "name": "File Manager",
+  "publisher": "MicroPythonOS",
+  "short_description": "Manage files",
+  "long_description": "Traverse around the filesystem and manage files and folders you find..",
+  "fullname": "com.micropythonos.file_manager",
+  "version": "0.0.7",
+  "category": "development",
+  "activities": [
+    {
+      "entrypoint": "assets/file_manager.py",
+      "classname": "FileManager",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.file_manager/icons/com.micropythonos.file_manager_0.0.7_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.file_manager/mpks/com.micropythonos.file_manager_0.0.7.mpk"
+}
+,{
+  "name": "HelloWorld",
+  "publisher": "MicroPythonOS",
+  "short_description": "Minimal app",
+  "long_description": "Demonstrates the simplest app.",
+  "fullname": "com.micropythonos.helloworld",
+  "version": "0.0.6",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/hello.py",
       "classname": "Hello",
@@ -185,20 +202,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.helloworld/icons/com.micropythonos.helloworld_0.0.6_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.helloworld/mpks/com.micropythonos.helloworld_0.0.6.mpk"
 }
-
 ,{
-"name": "ImageView",
-"publisher": "MicroPythonOS",
-"short_description": "Image Viewer",
-"long_description": "Opens and shows images on the display.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.1.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.1.1.mpk",
-"fullname": "com.micropythonos.imageview",
-"version": "0.1.1",
-"category": "graphics",
-"activities": [
+  "name": "Image View",
+  "publisher": "MicroPythonOS",
+  "short_description": "Image Viewer",
+  "long_description": "Opens and shows images on the display.",
+  "fullname": "com.micropythonos.imageview",
+  "version": "0.1.3",
+  "category": "graphics",
+  "activities": [
     {
       "entrypoint": "assets/imageview.py",
       "classname": "ImageView",
@@ -209,20 +225,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.1.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.1.3.mpk"
 }
-
 ,{
-"name": "IMU",
-"publisher": "MicroPythonOS",
-"short_description": "Inertial Measurement Unit Visualization",
-"long_description": "Visualize data from the Intertial Measurement Unit, also known as the accellerometer.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/icons/com.micropythonos.imu_0.1.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/mpks/com.micropythonos.imu_0.1.1.mpk",
-"fullname": "com.micropythonos.imu",
-"version": "0.1.1",
-"category": "hardware",
-"activities": [
+  "name": "IMU",
+  "publisher": "MicroPythonOS",
+  "short_description": "Inertial Measurement Unit Visualization",
+  "long_description": "Visualize data from the Intertial Measurement Unit, also known as the accellerometer.",
+  "fullname": "com.micropythonos.imu",
+  "version": "0.1.2",
+  "category": "hardware",
+  "activities": [
     {
       "entrypoint": "assets/imu.py",
       "classname": "IMU",
@@ -233,18 +248,17 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/icons/com.micropythonos.imu_0.1.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imu/mpks/com.micropythonos.imu_0.1.2.mpk"
 }
-
 ,{
   "name": "IR Remote",
   "publisher": "MicroPythonOS",
   "short_description": "Send IR commands",
   "long_description": "Simple IR remote with power and volume controls.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/icons/com.micropythonos.ir_remote_0.1.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/mpks/com.micropythonos.ir_remote_0.1.3.mpk",
   "fullname": "com.micropythonos.ir_remote",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "category": "tools",
   "activities": [
     {
@@ -257,42 +271,42 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/icons/com.micropythonos.ir_remote_0.1.4_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/mpks/com.micropythonos.ir_remote_0.1.4.mpk"
 }
 ,{
-    "name": "Lights Out",
-    "publisher": "MicroPythonOS",
-    "short_description": "Classic Lights Out puzzle game",
-    "long_description": "Turn off all the lights! Pressing a light toggles it and its neighbors. Solve each level with minimal moves.",
-    "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.1_64x64.png",
-    "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/mpks/com.micropythonos.lights_out_1.0.1.mpk",
-    "fullname": "com.micropythonos.lights_out",
-    "version": "1.0.1",
-    "category": "games",
-    "activities": [
+  "name": "Lights Out",
+  "publisher": "MicroPythonOS",
+  "short_description": "Classic Lights Out puzzle game",
+  "long_description": "Turn off all the lights! Pressing a light toggles it and its neighbors. Solve each level with minimal moves.",
+  "fullname": "com.micropythonos.lights_out",
+  "version": "1.0.2",
+  "category": "games",
+  "activities": [
+    {
+      "entrypoint": "assets/lights_out.py",
+      "classname": "LightsOut",
+      "intent_filters": [
         {
-            "entrypoint": "assets/lights_out.py",
-            "classname": "LightsOut",
-            "intent_filters": [
-                {
-                    "action": "main",
-                    "category": "launcher"
-                }
-            ]
+          "action": "main",
+          "category": "launcher"
         }
-    ]
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/mpks/com.micropythonos.lights_out_1.0.2.mpk"
 }
 ,{
-"name": "LoRa Chat",
-"publisher": "MicroPythonOS",
-"short_description": "Chat using LoRa",
-"long_description": "Send messages back and forth with your friends using LoRa.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/icons/com.micropythonos.lora_chat_0.0.6_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/mpks/com.micropythonos.lora_chat_0.0.6.mpk",
-"fullname": "com.micropythonos.lora_chat",
-"version": "0.0.6",
-"category": "development",
-"activities": [
+  "name": "LoRa Chat",
+  "publisher": "MicroPythonOS",
+  "short_description": "Chat using LoRa",
+  "long_description": "Send messages back and forth with your friends using LoRa.",
+  "fullname": "com.micropythonos.lora_chat",
+  "version": "0.0.7",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/lora_chat.py",
       "classname": "LoRaChat",
@@ -303,43 +317,42 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/icons/com.micropythonos.lora_chat_0.0.7_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/mpks/com.micropythonos.lora_chat_0.0.7.mpk"
 }
-
 ,{
-    "name": "Memory",
-    "publisher": "MicroPythonOS",
-    "short_description": "Classic card memory game",
-    "long_description": "Find all matching pairs of symbols by remembering their positions.",
-    "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.2.6_64x64.png",
-    "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/mpks/com.micropythonos.memory_1.2.6.mpk",
-    "fullname": "com.micropythonos.memory",
-    "version": "1.2.6",
-    "category": "games",
-    "activities": [
+  "name": "Memory",
+  "publisher": "MicroPythonOS",
+  "short_description": "Classic card memory game",
+  "long_description": "Find all matching pairs of symbols by remembering their positions.",
+  "fullname": "com.micropythonos.memory",
+  "version": "1.2.7",
+  "category": "games",
+  "activities": [
+    {
+      "entrypoint": "assets/memory.py",
+      "classname": "Memory",
+      "intent_filters": [
         {
-            "entrypoint": "assets/memory.py",
-            "classname": "Memory",
-            "intent_filters": [
-                {
-                    "action": "main",
-                    "category": "launcher"
-                }
-            ]
+          "action": "main",
+          "category": "launcher"
         }
-    ]
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.2.7_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/mpks/com.micropythonos.memory_1.2.7.mpk"
 }
 ,{
-"name": "Music Player",
-"publisher": "MicroPythonOS",
-"short_description": "Player audio files",
-"long_description": "Traverse around the filesystem and play audio files that you select.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.1.2_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.1.2.mpk",
-"fullname": "com.micropythonos.musicplayer",
-"version": "0.1.2",
-"category": "development",
-"activities": [
+  "name": "Music Player",
+  "publisher": "MicroPythonOS",
+  "short_description": "Player audio files",
+  "long_description": "Traverse around the filesystem and play audio files that you select.",
+  "fullname": "com.micropythonos.musicplayer",
+  "version": "0.1.3",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/music_player.py",
       "classname": "MusicPlayer",
@@ -350,20 +363,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.1.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.1.3.mpk"
 }
-
 ,{
-"name": "ScanBluetooth",
-"publisher": "MicroPythonOS",
-"short_description": "Scan Bluetooth",
-"long_description": "Lists all nearby Bluetooth devices with some information",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/icons/com.micropythonos.scan_bluetooth_0.1.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/mpks/com.micropythonos.scan_bluetooth_0.1.1.mpk",
-"fullname": "com.micropythonos.scan_bluetooth",
-"version": "0.1.1",
-"category": "development",
-"activities": [
+  "name": "ScanBluetooth",
+  "publisher": "MicroPythonOS",
+  "short_description": "Scan Bluetooth",
+  "long_description": "Lists all nearby Bluetooth devices with some information",
+  "fullname": "com.micropythonos.scan_bluetooth",
+  "version": "0.1.2",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/scan_bluetooth.py",
       "classname": "ScanBluetooth",
@@ -374,20 +386,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/icons/com.micropythonos.scan_bluetooth_0.1.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/mpks/com.micropythonos.scan_bluetooth_0.1.2.mpk"
 }
-
 ,{
-"name": "Show Battery",
-"publisher": "MicroPythonOS",
-"short_description": "Minimal app",
-"long_description": "Demonstrates the simplest app.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.2.3_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.2.3.mpk",
-"fullname": "com.micropythonos.showbattery",
-"version": "0.2.3",
-"category": "development",
-"activities": [
+  "name": "Show Battery",
+  "publisher": "MicroPythonOS",
+  "short_description": "Minimal app",
+  "long_description": "Demonstrates the simplest app.",
+  "fullname": "com.micropythonos.showbattery",
+  "version": "0.2.4",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/show_battery.py",
       "classname": "ShowBattery",
@@ -398,20 +409,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.2.4_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.2.4.mpk"
 }
-
 ,{
-"name": "ShowFonts",
-"publisher": "MicroPythonOS",
-"short_description": "Show installed fonts",
-"long_description": "Visualize the installed fonts so the user can check them out.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.1.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.1.1.mpk",
-"fullname": "com.micropythonos.showfonts",
-"version": "0.1.1",
-"category": "development",
-"activities": [
+  "name": "Show Fonts",
+  "publisher": "MicroPythonOS",
+  "short_description": "Show installed fonts",
+  "long_description": "Visualize the installed fonts so the user can check them out.",
+  "fullname": "com.micropythonos.showfonts",
+  "version": "0.1.2",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/showfonts.py",
       "classname": "ShowFonts",
@@ -422,18 +432,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.1.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.1.2.mpk"
 }
-
 ,{
   "name": "Sound Recorder",
   "publisher": "MicroPythonOS",
   "short_description": "Record audio from microphone",
   "long_description": "Record audio from the I2S microphone and save as WAV files. Recordings can be played back with the Music Player app.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.soundrecorder/icons/com.micropythonos.soundrecorder_0.1.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.soundrecorder/mpks/com.micropythonos.soundrecorder_0.1.2.mpk",
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.soundrecorder/icons/com.micropythonos.soundrecorder_0.1.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.soundrecorder/mpks/com.micropythonos.soundrecorder_0.1.3.mpk",
   "fullname": "com.micropythonos.soundrecorder",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "category": "utilities",
   "activities": [
     {
@@ -447,17 +458,39 @@
       ]
     }
   ]
-},{
-"name": "Time of Flight",
-"publisher": "MicroPythonOS",
-"short_description": "Time-of-flight sensor demo",
-"long_description": "Shows off time-of-flight range imaging camera sensors by describing distance measurements per pixel based on round-trip light time.",
-"icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/icons/com.micropythonos.time_of_flight_0.0.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/mpks/com.micropythonos.time_of_flight_0.0.1.mpk",
-"fullname": "com.micropythonos.time_of_flight",
-"version": "0.0.1",
-"category": "development",
-"activities": [
+}
+,{
+  "name": "Space Invaders",
+  "publisher": "MicroPythonOS",
+  "short_description": "Classic space invaders shooter",
+  "long_description": "Defend Earth from invading aliens in this action-packed space shooter. Clear waves of invaders, earn high scores, and save your progress.",
+  "fullname": "com.micropythonos.space_invaders",
+  "version": "0.1.0",
+  "category": "games",
+  "activities": [
+    {
+      "entrypoint": "assets/space_invaders.py",
+      "classname": "SpaceInvaders",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.space_invaders/icons/com.micropythonos.space_invaders_0.1.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.space_invaders/mpks/com.micropythonos.space_invaders_0.1.0.mpk"
+}
+,{
+  "name": "Time of Flight",
+  "publisher": "MicroPythonOS",
+  "short_description": "Time-of-flight sensor demo",
+  "long_description": "Shows off time-of-flight range imaging camera sensors by describing distance measurements per pixel based on round-trip light time.",
+  "fullname": "com.micropythonos.time_of_flight",
+  "version": "0.0.2",
+  "category": "development",
+  "activities": [
     {
       "entrypoint": "assets/time_of_flight.py",
       "classname": "TimeOfFlight",
@@ -468,17 +501,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/icons/com.micropythonos.time_of_flight_0.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/mpks/com.micropythonos.time_of_flight_0.0.2.mpk"
 }
 ,{
   "name": "Quasi Bird",
   "publisher": "QuasiKili",
   "short_description": "Bird Game",
   "long_description": "A fun bird flying game with smooth physics. Tap to fly!",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.1.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.1.0.mpk",
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.0.6_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.0.6.mpk",
   "fullname": "com.quasikili.quasibird",
-  "version": "0.1.0",
+  "version": "0.0.6",
   "category": "games",
   "activities": [
     {
@@ -498,10 +533,8 @@
   "publisher": "QuasiKili",
   "short_description": "Scientific and Standard Calculator",
   "long_description": "A calculator app with both scientific and standard modes.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasicalculator/icons/com.quasikili.quasicalculator_0.0.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasicalculator/mpks/com.quasikili.quasicalculator_0.0.3.mpk",
   "fullname": "com.quasikili.quasicalculator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "category": "utilities",
   "activities": [
     {
@@ -514,17 +547,17 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasicalculator/icons/com.quasikili.quasicalculator_0.0.4_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasicalculator/mpks/com.quasikili.quasicalculator_0.0.4.mpk"
 }
 ,{
   "name": "Quasi Nametag",
   "publisher": "QuasiKili",
   "short_description": "Digital Nametag Display",
   "long_description": "A customizable digital nametag with color selection.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.1.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.1.1.mpk",
   "fullname": "com.quasikili.quasinametag",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "category": "utilities",
   "activities": [
     {
@@ -537,19 +570,21 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.1.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.1.2.mpk"
 }
 ,{
-"name": "Columns",
-"publisher": "Pavel Machek",
-"short_description": "Falling columns game",
-"long_description": "Blocks of 3 colors are falling. Align the colors to make blocks disappear.",
-"icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/icons/cz.ucw.pavel.columns_0.0.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/mpks/cz.ucw.pavel.columns_0.0.1.mpk",
-"fullname": "cz.ucw.pavel.columns",
-"version": "0.0.1",
-"category": "utilities",
-"activities": [
+  "name": "Columns",
+  "publisher": "Pavel Machek",
+  "short_description": "Falling columns game",
+  "long_description": "Blocks of 3 colors are falling. Align the colors to make blocks disappear.",
+  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/icons/cz.ucw.pavel.columns_0.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/mpks/cz.ucw.pavel.columns_0.0.2.mpk",
+  "fullname": "cz.ucw.pavel.columns",
+  "version": "0.0.2",
+  "category": "utilities",
+  "activities": [
     {
       "entrypoint": "assets/main.py",
       "classname": "Main",
@@ -562,18 +597,17 @@
     }
   ]
 }
-
 ,{
-"name": "Floodit",
-"publisher": "Pavel Machek",
-"short_description": "Simple game with colors.",
-"long_description": "Game with colors, where objective is to turn whole board into single color in minimum number of steps.",
-"icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.0.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/mpks/cz.ucw.pavel.floodit_0.0.1.mpk",
-"fullname": "cz.ucw.pavel.floodit",
-"version": "0.0.1",
-"category": "utilities",
-"activities": [
+  "name": "Floodit",
+  "publisher": "Pavel Machek",
+  "short_description": "Simple game with colors.",
+  "long_description": "Game with colors, where objective is to turn whole board into single color in minimum number of steps.",
+  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/mpks/cz.ucw.pavel.floodit_0.0.2.mpk",
+  "fullname": "cz.ucw.pavel.floodit",
+  "version": "0.0.2",
+  "category": "utilities",
+  "activities": [
     {
       "entrypoint": "assets/main.py",
       "classname": "Main",
@@ -586,18 +620,15 @@
     }
   ]
 }
-
 ,{
-"name": "Gyro",
-"publisher": "Pavel Machek",
-"short_description": "Gyro",
-"long_description": "Simple gyro app.",
-"icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.gyro/icons/cz.ucw.pavel.gyro_0.0.1_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.gyro/mpks/cz.ucw.pavel.gyro_0.0.1.mpk",
-"fullname": "cz.ucw.pavel.gyro",
-"version": "0.0.1",
-"category": "utilities",
-"activities": [
+  "name": "Gyro",
+  "publisher": "Pavel Machek",
+  "short_description": "Gyro",
+  "long_description": "Simple gyro app.",
+  "fullname": "cz.ucw.pavel.gyro",
+  "version": "0.0.2",
+  "category": "utilities",
+  "activities": [
     {
       "entrypoint": "assets/main.py",
       "classname": "Main",
@@ -608,20 +639,19 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.gyro/icons/cz.ucw.pavel.gyro_0.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.gyro/mpks/cz.ucw.pavel.gyro_0.0.2.mpk"
 }
-
 ,{
-"name": "Navstar",
-"publisher": "Pavel Machek",
-"short_description": "Simple navigation app.",
-"long_description": "Simple navigation app using data from NAVSTAR GPS and other GNSS systems.",
-"icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.0.2_64x64.png",
-"download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.0.2.mpk",
-"fullname": "cz.ucw.pavel.navstar",
-"version": "0.0.2",
-"category": "utilities",
-"activities": [
+  "name": "Navstar",
+  "publisher": "Pavel Machek",
+  "short_description": "Simple navigation app.",
+  "long_description": "Simple navigation app using data from NAVSTAR GPS and other GNSS systems.",
+  "fullname": "cz.ucw.pavel.navstar",
+  "version": "0.0.3",
+  "category": "utilities",
+  "activities": [
     {
       "entrypoint": "assets/main.py",
       "classname": "Main",
@@ -632,7 +662,8 @@
         }
       ]
     }
-  ]
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.0.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.0.3.mpk"
 }
-
 ]
