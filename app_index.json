@@ -51,7 +51,7 @@
   "short_description": "Just shows confetti",
   "long_description": "Nothing special, just a demo.",
   "fullname": "com.micropythonos.confetti",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "category": "games",
   "activities": [
     {
@@ -65,8 +65,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/icons/com.micropythonos.confetti_0.2.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/mpks/com.micropythonos.confetti_0.2.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/icons/com.micropythonos.confetti_0.2.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/mpks/com.micropythonos.confetti_0.2.2.mpk"
 }
 ,{
   "name": "Connect 4",
