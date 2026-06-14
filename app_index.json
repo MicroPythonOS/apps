@@ -258,7 +258,7 @@
   "short_description": "Send IR commands",
   "long_description": "Simple IR remote with power and volume controls.",
   "fullname": "com.micropythonos.ir_remote",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "category": "tools",
   "activities": [
     {
@@ -272,8 +272,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/icons/com.micropythonos.ir_remote_0.2.5_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/mpks/com.micropythonos.ir_remote_0.2.5.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/icons/com.micropythonos.ir_remote_0.2.6_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.ir_remote/mpks/com.micropythonos.ir_remote_0.2.6.mpk"
 }
 ,{
   "name": "Lights Out",
