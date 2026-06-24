@@ -361,7 +361,7 @@
   "short_description": "Player audio files",
   "long_description": "Traverse around the filesystem and play audio files that you select.",
   "fullname": "com.micropythonos.musicplayer",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "category": "audio",
   "activities": [
     {
@@ -382,8 +382,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.4.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.4.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.4.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.4.2.mpk"
 }
 ,{
   "name": "ScanBluetooth",
