@@ -5,7 +5,7 @@
   "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
   "long_description": "See https://www.LightningPiggy.com",
   "fullname": "com.lightningpiggy.displaywallet",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "category": "finance",
   "activities": [
     {
@@ -19,8 +19,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.6.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.6.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.6.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.6.1.mpk"
 }
 ,{
   "name": "Breakout",
@@ -28,8 +28,8 @@
   "short_description": "Classic Breakout game",
   "long_description": "Classic Breakout game to demonstrate native machinecode (from C) in .mpy files on both AMD64 and ESP32",
   "fullname": "com.micropythonos.breakout",
-  "version": "0.4.0",
-  "category": "games",
+  "version": "0.5.0",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "breakout.py",
@@ -42,8 +42,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/icons/com.micropythonos.breakout_0.4.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/mpks/com.micropythonos.breakout_0.4.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/icons/com.micropythonos.breakout_0.5.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/mpks/com.micropythonos.breakout_0.5.0.mpk"
 }
 ,{
   "name": "Camera",
@@ -74,8 +74,8 @@
   "short_description": "Just shows confetti",
   "long_description": "Nothing special, just a demo.",
   "fullname": "com.micropythonos.confetti",
-  "version": "0.3.1",
-  "category": "games",
+  "version": "0.3.3",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "confetti_app.py",
@@ -88,8 +88,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/icons/com.micropythonos.confetti_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/mpks/com.micropythonos.confetti_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/icons/com.micropythonos.confetti_0.3.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.confetti/mpks/com.micropythonos.confetti_0.3.3.mpk"
 }
 ,{
   "name": "Connect 4",
@@ -97,8 +97,8 @@
   "short_description": "Classic Connect 4 game",
   "long_description": "Play Connect 4 against the computer with three difficulty levels: Easy, Medium, and Hard. Drop colored discs and try to connect four in a row!",
   "fullname": "com.micropythonos.connect4",
-  "version": "0.4.0",
-  "category": "games",
+  "version": "0.4.1",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "connect4.py",
@@ -111,8 +111,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/icons/com.micropythonos.connect4_0.4.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/mpks/com.micropythonos.connect4_0.4.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/icons/com.micropythonos.connect4_0.4.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.connect4/mpks/com.micropythonos.connect4_0.4.1.mpk"
 }
 ,{
   "name": "DJ Addon",
@@ -212,7 +212,7 @@
   "short_description": "Image Viewer",
   "long_description": "Opens and shows images on the display.",
   "fullname": "com.micropythonos.imageview",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "category": "graphics",
   "activities": [
     {
@@ -237,8 +237,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.4.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.4.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.4.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.imageview/mpks/com.micropythonos.imageview_0.4.1.mpk"
 }
 ,{
   "name": "IMU",
@@ -292,8 +292,8 @@
   "short_description": "Classic Lights Out puzzle game",
   "long_description": "Turn off all the lights! Pressing a light toggles it and its neighbors. Solve each level with minimal moves.",
   "fullname": "com.micropythonos.lights_out",
-  "version": "1.2.0",
-  "category": "games",
+  "version": "1.2.1",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "lights_out.py",
@@ -306,8 +306,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.2.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/mpks/com.micropythonos.lights_out_1.2.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.2.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lights_out/mpks/com.micropythonos.lights_out_1.2.1.mpk"
 }
 ,{
   "name": "LoRa Chat",
@@ -315,7 +315,7 @@
   "short_description": "Chat using LoRa",
   "long_description": "Send messages back and forth with your friends using LoRa.",
   "fullname": "com.micropythonos.lora_chat",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "category": "communication",
   "activities": [
     {
@@ -329,8 +329,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/icons/com.micropythonos.lora_chat_0.2.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/mpks/com.micropythonos.lora_chat_0.2.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/icons/com.micropythonos.lora_chat_0.2.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/mpks/com.micropythonos.lora_chat_0.2.2.mpk"
 }
 ,{
   "name": "Memory",
@@ -338,8 +338,8 @@
   "short_description": "Classic card memory game",
   "long_description": "Find all matching pairs of symbols by remembering their positions.",
   "fullname": "com.micropythonos.memory",
-  "version": "1.4.1",
-  "category": "games",
+  "version": "1.4.2",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "memory.py",
@@ -352,8 +352,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.4.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/mpks/com.micropythonos.memory_1.4.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.4.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.memory/mpks/com.micropythonos.memory_1.4.2.mpk"
 }
 ,{
   "name": "Music Player",
@@ -361,7 +361,7 @@
   "short_description": "Player audio files",
   "long_description": "Traverse around the filesystem and play audio files that you select.",
   "fullname": "com.micropythonos.musicplayer",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "category": "audio",
   "activities": [
     {
@@ -378,12 +378,53 @@
           "pathPattern": [
             ".wav"
           ]
+        },
+        {
+          "action": "view",
+          "mimeType": "audio/rtttl",
+          "pathPattern": [
+            ".rtttl"
+          ]
         }
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.4.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.4.2.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.4.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.4.3.mpk"
+}
+,{
+  "name": "Nostr Chat",
+  "publisher": "MicroPythonOS",
+  "short_description": "Nostr",
+  "long_description": "Notest and Other Stuff Transmitted by Relays",
+  "fullname": "com_micropythonos_nostr",
+  "version": "0.5.0",
+  "category": "communication",
+  "activities": [
+    {
+      "entrypoint": "chat_list_activity.py",
+      "classname": "ChatListActivity",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "entrypoint": "nostr_boot_service.py",
+      "classname": "NostrBootService",
+      "intent_filters": [
+        {
+          "action": "boot_completed"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_0.5.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_0.5.0.mpk"
 }
 ,{
   "name": "ScanBluetooth",
@@ -391,7 +432,7 @@
   "short_description": "Scan Bluetooth",
   "long_description": "Lists all nearby Bluetooth devices with some information",
   "fullname": "com.micropythonos.scan_bluetooth",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "category": "hardware",
   "activities": [
     {
@@ -405,8 +446,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/icons/com.micropythonos.scan_bluetooth_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/mpks/com.micropythonos.scan_bluetooth_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/icons/com.micropythonos.scan_bluetooth_0.4.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.scan_bluetooth/mpks/com.micropythonos.scan_bluetooth_0.4.0.mpk"
 }
 ,{
   "name": "Show Battery",
@@ -437,7 +478,7 @@
   "short_description": "Show installed fonts",
   "long_description": "Visualize the installed fonts so the user can check them out.",
   "fullname": "com.micropythonos.showfonts",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "category": "utilities",
   "activities": [
     {
@@ -451,8 +492,31 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.3.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.3.2.mpk"
+}
+,{
+  "name": "Emoji Sort",
+  "publisher": "MicroPythonOS",
+  "short_description": "Sort emojis into matching tubes",
+  "long_description": "A water-sort style puzzle. Move emoji tokens between tubes until each tube contains only one kind of emoji. Levels get progressively harder.",
+  "fullname": "com.micropythonos.sorter",
+  "version": "1.0.0",
+  "category": "game",
+  "activities": [
+    {
+      "entrypoint": "sorter.py",
+      "classname": "Sorter",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.0.mpk"
 }
 ,{
   "name": "Sound Recorder",
@@ -483,8 +547,8 @@
   "short_description": "Classic space invaders shooter",
   "long_description": "Defend Earth from invading aliens in this action-packed space shooter. Clear waves of invaders, earn high scores, and save your progress.",
   "fullname": "com.micropythonos.space_invaders",
-  "version": "0.3.1",
-  "category": "games",
+  "version": "0.3.2",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "space_invaders.py",
@@ -497,8 +561,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.space_invaders/icons/com.micropythonos.space_invaders_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.space_invaders/mpks/com.micropythonos.space_invaders_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.space_invaders/icons/com.micropythonos.space_invaders_0.3.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.space_invaders/mpks/com.micropythonos.space_invaders_0.3.2.mpk"
 }
 ,{
   "name": "Text Editor",
@@ -540,6 +604,29 @@
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.texteditor/mpks/com.micropythonos.texteditor_0.1.1.mpk"
 }
 ,{
+  "activities": [
+    {
+      "classname": "AlbumPlayer",
+      "entrypoint": "assets/tfl_player.py",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "category": "utilities",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.thefreelanternplayer/mpks/com.micropythonos.thefreelanternplayer_1.0.0.mpk",
+  "fullname": "com.micropythonos.thefreelanternplayer",
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.thefreelanternplayer/icons/com.micropythonos.thefreelanternplayer_1.0.0_64x64.png",
+  "long_description": "Streams music from The Free Lantern website or from local SD card.",
+  "name": "The Free Lantern",
+  "publisher": "MicroPythonOS",
+  "short_description": "Plays music from The Free Lantern",
+  "version": "1.0.0"
+}
+,{
   "name": "Time of Flight",
   "publisher": "MicroPythonOS",
   "short_description": "Time-of-flight sensor demo",
@@ -568,8 +655,8 @@
   "short_description": "Bird Game",
   "long_description": "A fun bird flying game with smooth physics. Tap to fly!",
   "fullname": "com.quasikili.quasibird",
-  "version": "0.3.0",
-  "category": "games",
+  "version": "0.3.1",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "assets/quasibird.py",
@@ -582,8 +669,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.3.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.3.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.3.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.3.1.mpk"
 }
 ,{
   "name": "Quasi Calculator",
@@ -644,15 +731,15 @@
       ]
     }
   ],
-  "category": "reference",
+  "category": "knowledge",
   "fullname": "com.quasikili.wikipedia",
   "name": "Wikipedia",
   "publisher": "QuasiKili",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "short_description": "An app to search and read Wikipedia articles.",
   "long_description": "An app to search and read Wikipedia articles.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/icons/com.quasikili.wikipedia_0.0.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/mpks/com.quasikili.wikipedia_0.0.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/icons/com.quasikili.wikipedia_0.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/mpks/com.quasikili.wikipedia_0.0.2.mpk"
 }
 ,{
   "name": "Columns",
@@ -660,8 +747,8 @@
   "short_description": "Falling columns game",
   "long_description": "Blocks of 3 colors are falling. Align the colors to make blocks disappear.",
   "fullname": "cz.ucw.pavel.columns",
-  "version": "0.3.1",
-  "category": "games",
+  "version": "0.3.2",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "main.py",
@@ -674,8 +761,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/icons/cz.ucw.pavel.columns_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/mpks/cz.ucw.pavel.columns_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/icons/cz.ucw.pavel.columns_0.3.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/mpks/cz.ucw.pavel.columns_0.3.2.mpk"
 }
 ,{
   "name": "Floodit",
@@ -683,8 +770,8 @@
   "short_description": "Simple game with colors.",
   "long_description": "Game with colors, where objective is to turn whole board into single color in minimum number of steps.",
   "fullname": "cz.ucw.pavel.floodit",
-  "version": "0.3.1",
-  "category": "games",
+  "version": "0.3.2",
+  "category": "game",
   "activities": [
     {
       "entrypoint": "main.py",
@@ -697,8 +784,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/mpks/cz.ucw.pavel.floodit_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.3.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/mpks/cz.ucw.pavel.floodit_0.3.2.mpk"
 }
 ,{
   "name": "Gyro",
