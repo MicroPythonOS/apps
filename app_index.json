@@ -501,7 +501,7 @@
   "short_description": "Sort emojis into matching tubes",
   "long_description": "A water-sort style puzzle. Move emoji tokens between tubes until each tube contains only one kind of emoji. Levels get progressively harder.",
   "fullname": "com.micropythonos.sorter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "game",
   "activities": [
     {
@@ -515,8 +515,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.1.mpk"
 }
 ,{
   "name": "Sound Recorder",
