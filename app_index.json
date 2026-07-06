@@ -28,7 +28,7 @@
   "short_description": "Classic Breakout game",
   "long_description": "Classic Breakout game to demonstrate native machinecode (from C) in .mpy files on both AMD64 and ESP32",
   "fullname": "com.micropythonos.breakout",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "category": "game",
   "activities": [
     {
@@ -42,8 +42,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/icons/com.micropythonos.breakout_0.5.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/mpks/com.micropythonos.breakout_0.5.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/icons/com.micropythonos.breakout_0.6.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.breakout/mpks/com.micropythonos.breakout_0.6.0.mpk"
 }
 ,{
   "name": "Camera",
@@ -138,6 +138,29 @@
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.1.mpk"
 }
 ,{
+  "name": "Doom Launcher",
+  "publisher": "MicroPythonOS",
+  "short_description": "Legendary 3D shooter",
+  "long_description": "Plays Doom 1, 2 and modded .wad files from internal storage or SD card. Place them in /roms/doom/. Uses ducalex's retro-go port of PrBoom. Supports zipped wad files too.",
+  "fullname": "com.micropythonos.doom_launcher",
+  "version": "0.4.3",
+  "category": "game",
+  "activities": [
+    {
+      "entrypoint": "doom_launcher.py",
+      "classname": "DoomLauncher",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/icons/com.micropythonos.doom_launcher_0.4.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/mpks/com.micropythonos.doom_launcher_0.4.3.mpk"
+}
+,{
   "name": "Draw",
   "publisher": "MicroPythonOS",
   "short_description": "Simple drawing app",
@@ -159,6 +182,29 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.3.1_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/mpks/com.micropythonos.draw_0.3.1.mpk"
+}
+,{
+  "name": "Duke Nukem 3D",
+  "publisher": "MicroPythonOS",
+  "short_description": "Legendary 3D shooter",
+  "long_description": "Plays Duke Nukem 3D .grp files from internal storage or SD card. Place them in /roms/duke3d/. Uses ducalex's retro-go port. Supports zipped grp files too.",
+  "fullname": "com.micropythonos.duke_launcher",
+  "version": "0.3.3",
+  "category": "game",
+  "activities": [
+    {
+      "entrypoint": "duke_launcher.py",
+      "classname": "DukeLauncher",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.duke_launcher/icons/com.micropythonos.duke_launcher_0.3.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.duke_launcher/mpks/com.micropythonos.duke_launcher_0.3.3.mpk"
 }
 ,{
   "name": "ESPNowChat",
@@ -425,6 +471,29 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_0.5.1_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_0.5.1.mpk"
+}
+,{
+  "name": "Retro Core Launcher",
+  "publisher": "MicroPythonOS",
+  "short_description": "Classic 8-bit and handheld games",
+  "long_description": "Plays NES and Gameboy ROMs from storage or SD card. Place in /roms/nes/ or /roms/gb/. Uses retro-go. Zipped ROMs supported.",
+  "fullname": "com.micropythonos.retrocore_launcher",
+  "version": "0.5.1",
+  "category": "game",
+  "activities": [
+    {
+      "entrypoint": "retrocore_launcher.py",
+      "classname": "RetroCoreLauncher",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.retrocore_launcher/icons/com.micropythonos.retrocore_launcher_0.5.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.retrocore_launcher/mpks/com.micropythonos.retrocore_launcher_0.5.1.mpk"
 }
 ,{
   "name": "ScanBluetooth",
