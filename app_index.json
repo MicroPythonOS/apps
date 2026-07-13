@@ -5,7 +5,7 @@
   "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
   "long_description": "See https://www.LightningPiggy.com",
   "fullname": "com.lightningpiggy.displaywallet",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "category": "finance",
   "activities": [
     {
@@ -19,8 +19,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.1.mpk"
 }
 ,{
   "name": "BLEep",
@@ -152,7 +152,7 @@
   "short_description": "DJ Addon demo",
   "long_description": "Shows off the capabilities of the Fri3d DJ Addon 2026.",
   "fullname": "com.micropythonos.dj_addon",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "category": "development",
   "activities": [
     {
@@ -166,8 +166,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.3.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.2.mpk"
 }
 ,{
   "name": "Doom Launcher",
@@ -625,7 +625,7 @@
   "short_description": "Sort emojis into matching tubes",
   "long_description": "A water-sort style puzzle. Move emoji tokens between tubes until each tube contains only one kind of emoji. Levels get progressively harder.",
   "fullname": "com.micropythonos.sorter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "category": "game",
   "activities": [
     {
@@ -639,8 +639,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.3.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.4_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.4.mpk"
 }
 ,{
   "name": "Sound Recorder",
@@ -756,7 +756,7 @@
   "short_description": "Time-of-flight sensor demo",
   "long_description": "Shows off time-of-flight range imaging camera sensors by describing distance measurements per pixel based on round-trip light time.",
   "fullname": "com.micropythonos.time_of_flight",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "category": "hardware",
   "activities": [
     {
@@ -770,8 +770,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/icons/com.micropythonos.time_of_flight_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/mpks/com.micropythonos.time_of_flight_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/icons/com.micropythonos.time_of_flight_0.3.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/mpks/com.micropythonos.time_of_flight_0.3.2.mpk"
 }
 ,{
   "name": "Quasi Bird",
