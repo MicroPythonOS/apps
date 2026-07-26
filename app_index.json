@@ -5,7 +5,7 @@
   "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
   "long_description": "See https://www.LightningPiggy.com",
   "fullname": "com.lightningpiggy.displaywallet",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "category": "finance",
   "activities": [
     {
@@ -19,8 +19,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.2.mpk"
 }
 ,{
   "name": "BLEep",
@@ -198,7 +198,7 @@
   "short_description": "Simple drawing app",
   "long_description": "Draw simple shapes on the screen.",
   "fullname": "com.micropythonos.draw",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "category": "graphics",
   "activities": [
     {
@@ -212,8 +212,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/mpks/com.micropythonos.draw_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.3.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.draw/mpks/com.micropythonos.draw_0.3.2.mpk"
 }
 ,{
   "name": "Duke Nukem 3D",
@@ -476,7 +476,7 @@
   "short_description": "Nostr",
   "long_description": "Notest and Other Stuff Transmitted by Relays",
   "fullname": "com_micropythonos_nostr",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "category": "communication",
   "activities": [
     {
@@ -501,8 +501,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_0.6.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_0.6.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_1.0.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_1.0.0.mpk"
 }
 ,{
   "name": "REPL Shell",
@@ -579,8 +579,8 @@
   "short_description": "Minimal app",
   "long_description": "Demonstrates the simplest app.",
   "fullname": "com.micropythonos.showbattery",
-  "version": "0.4.2",
-  "category": "utilities",
+  "version": "0.5.0",
+  "category": "utility",
   "activities": [
     {
       "entrypoint": "show_battery.py",
@@ -593,8 +593,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.4.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.4.2.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.5.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.5.0.mpk"
 }
 ,{
   "name": "Show Fonts",
@@ -602,8 +602,8 @@
   "short_description": "Show installed fonts",
   "long_description": "Visualize the installed fonts so the user can check them out.",
   "fullname": "com.micropythonos.showfonts",
-  "version": "0.3.3",
-  "category": "utilities",
+  "version": "0.4.0",
+  "category": "utility",
   "activities": [
     {
       "entrypoint": "showfonts.py",
@@ -616,8 +616,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.3.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.3.3.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.4.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showfonts/mpks/com.micropythonos.showfonts_0.4.0.mpk"
 }
 ,{
   "name": "Emoji Sort",
@@ -625,7 +625,7 @@
   "short_description": "Sort emojis into matching tubes",
   "long_description": "A water-sort style puzzle. Move emoji tokens between tubes until each tube contains only one kind of emoji. Levels get progressively harder.",
   "fullname": "com.micropythonos.sorter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "category": "game",
   "activities": [
     {
@@ -639,8 +639,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.4_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.4.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.5_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.5.mpk"
 }
 ,{
   "name": "Sound Recorder",
@@ -694,8 +694,8 @@
   "short_description": "Edit text files",
   "long_description": "A simple text editor for plain text, source code, markup, data and configuration files.",
   "fullname": "com.micropythonos.texteditor",
-  "version": "0.1.2",
-  "category": "utilities",
+  "version": "0.2.0",
+  "category": "utility",
   "activities": [
     {
       "entrypoint": "text_editor.py",
@@ -724,8 +724,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.texteditor/icons/com.micropythonos.texteditor_0.1.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.texteditor/mpks/com.micropythonos.texteditor_0.1.2.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.texteditor/icons/com.micropythonos.texteditor_0.2.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.texteditor/mpks/com.micropythonos.texteditor_0.2.0.mpk"
 }
 ,{
   "activities": [
@@ -740,15 +740,15 @@
       ]
     }
   ],
-  "category": "utilities",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.thefreelanternplayer/mpks/com.micropythonos.thefreelanternplayer_1.0.1.mpk",
+  "category": "audio",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.thefreelanternplayer/mpks/com.micropythonos.thefreelanternplayer_1.0.2.mpk",
   "fullname": "com.micropythonos.thefreelanternplayer",
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.thefreelanternplayer/icons/com.micropythonos.thefreelanternplayer_1.0.1_64x64.png",
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.thefreelanternplayer/icons/com.micropythonos.thefreelanternplayer_1.0.2_64x64.png",
   "long_description": "Streams music from The Free Lantern website or from local SD card.",
   "name": "The Free Lantern",
   "publisher": "MicroPythonOS",
   "short_description": "Plays music from The Free Lantern",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
 ,{
   "name": "Time of Flight",
@@ -864,120 +864,5 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.3.1_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasinametag/mpks/com.quasikili.quasinametag_0.3.1.mpk"
-}
-,{
-  "activities": [
-    {
-      "classname": "WikipediaApp",
-      "entrypoint": "wikipedia.py",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "category": "knowledge",
-  "fullname": "com.quasikili.wikipedia",
-  "name": "Wikipedia",
-  "publisher": "QuasiKili",
-  "version": "0.0.2",
-  "short_description": "An app to search and read Wikipedia articles.",
-  "long_description": "An app to search and read Wikipedia articles.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/icons/com.quasikili.wikipedia_0.0.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/mpks/com.quasikili.wikipedia_0.0.2.mpk"
-}
-,{
-  "name": "Columns",
-  "publisher": "Pavel Machek",
-  "short_description": "Falling columns game",
-  "long_description": "Blocks of 3 colors are falling. Align the colors to make blocks disappear.",
-  "fullname": "cz.ucw.pavel.columns",
-  "version": "0.3.3",
-  "category": "game",
-  "activities": [
-    {
-      "entrypoint": "main.py",
-      "classname": "Main",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/icons/cz.ucw.pavel.columns_0.3.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.columns/mpks/cz.ucw.pavel.columns_0.3.3.mpk"
-}
-,{
-  "name": "Floodit",
-  "publisher": "Pavel Machek",
-  "short_description": "Simple game with colors.",
-  "long_description": "Game with colors, where objective is to turn whole board into single color in minimum number of steps.",
-  "fullname": "cz.ucw.pavel.floodit",
-  "version": "0.3.3",
-  "category": "game",
-  "activities": [
-    {
-      "entrypoint": "main.py",
-      "classname": "Main",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.3.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/mpks/cz.ucw.pavel.floodit_0.3.3.mpk"
-}
-,{
-  "name": "Gyro",
-  "publisher": "Pavel Machek",
-  "short_description": "Gyro",
-  "long_description": "Simple gyro app.",
-  "fullname": "cz.ucw.pavel.gyro",
-  "version": "0.2.2",
-  "category": "hardware",
-  "activities": [
-    {
-      "entrypoint": "main.py",
-      "classname": "Main",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.gyro/icons/cz.ucw.pavel.gyro_0.2.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.gyro/mpks/cz.ucw.pavel.gyro_0.2.2.mpk"
-}
-,{
-  "name": "Navstar",
-  "publisher": "Pavel Machek",
-  "short_description": "Simple navigation app.",
-  "long_description": "Simple navigation app using data from NAVSTAR GPS and other GNSS systems.",
-  "fullname": "cz.ucw.pavel.navstar",
-  "version": "0.2.2",
-  "category": "hardware",
-  "activities": [
-    {
-      "entrypoint": "assets/main.py",
-      "classname": "Main",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.2.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.2.2.mpk"
 }
 ]
