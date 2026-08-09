@@ -980,4 +980,27 @@
   "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.2.2_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.2.2.mpk"
 }
+,{
+  "name": "ZapTV",
+  "publisher": "zaptv",
+  "short_description": "Nostr-native zap display for your npub.",
+  "long_description": "Connect an LNbits, Nostr Wallet Connect, or on-chain (xpub) wallet and ZapTV shows your most recent zaps with a lightning-strike effect, alongside your Nostr profile picture and a receive QR for your npub.cash Lightning address.",
+  "icon_url": "https://apps.micropythonos.com/apps/org.zaptv.app/icons/org.zaptv.app_0.3.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/org.zaptv.app/mpks/org.zaptv.app_0.3.1.mpk",
+  "fullname": "org.zaptv.app",
+  "version": "0.3.1",
+  "category": "media",
+  "activities": [
+    {
+      "entrypoint": "zaptv.py",
+      "classname": "ZapTV",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ]
+}
 ]
