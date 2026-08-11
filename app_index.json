@@ -984,7 +984,7 @@
   "activities": [
     {
       "classname": "BlockTV",
-      "entrypoint": "assets/blocktv.py",
+      "entrypoint": "blocktv.py",
       "intent_filters": [
         {
           "action": "main",
@@ -997,7 +997,7 @@
   "download_url": "https://apps.micropythonos.com/apps/org.zaptv.blocktv/mpks/org.zaptv.blocktv_0.2.0.mpk",
   "fullname": "org.zaptv.blocktv",
   "icon_url": "https://apps.micropythonos.com/apps/org.zaptv.blocktv/icons/org.zaptv.blocktv_0.2.0_64x64.png",
-  "long_description": "BlockTV is a clean, customisable Bitcoin dashboard. Compose your own screens from ten data fields: block height, spot price, moscow time, halving countdown, median fee rate, circulating supply, market cap, clock, latest nostr zap and NWC wallet balance. Swipe between screens, roll the numbers odometer-style, and pick your own text/background colors.",
+  "long_description": "BlockTV is a clean, customisable Bitcoin dashboard. Compose your own screens from seventeen data fields: block height, spot price in seven currencies, moscow time, halving countdown, median/high/low priority fees, circulating supply, market cap, clock, latest nostr zap, NWC wallet balance, and five price charts from 24 hours up to one full four-year halving cycle. Charts plot real samples only, with per-range staleness warnings and a self-recorded 5-minute 24h series. Swipe or use a keypad between pages, drag fields to reorder them, and pick your own text and background colours.",
   "name": "BlockTV",
   "publisher": "zaptv",
   "short_description": "Customisable Bitcoin dashboard: block height, price, moscow time, fees, halving, zaps and more.",
