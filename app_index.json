@@ -175,7 +175,7 @@
   "short_description": "DJ Addon demo",
   "long_description": "Shows off the capabilities of the Fri3d DJ Addon 2026.",
   "fullname": "com.micropythonos.dj_addon",
-  "version": "0.3.2",
+  "version": "0.3.6",
   "category": "development",
   "activities": [
     {
@@ -189,8 +189,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.3.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.2.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.3.6_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.6.mpk"
 }
 ,{
   "name": "Doom Launcher",
@@ -198,7 +198,7 @@
   "short_description": "Legendary 3D shooter",
   "long_description": "Plays Doom 1, 2 and modded .wad files from internal storage or SD card. Place them in /roms/doom/. Uses ducalex's retro-go port of PrBoom. Supports zipped wad files too.",
   "fullname": "com.micropythonos.doom_launcher",
-  "version": "0.4.5",
+  "version": "0.6.0",
   "category": "game",
   "activities": [
     {
@@ -212,8 +212,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/icons/com.micropythonos.doom_launcher_0.4.5_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/mpks/com.micropythonos.doom_launcher_0.4.5.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/icons/com.micropythonos.doom_launcher_0.6.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/mpks/com.micropythonos.doom_launcher_0.6.0.mpk"
 }
 ,{
   "name": "Draw",
@@ -244,7 +244,7 @@
   "short_description": "Legendary 3D shooter",
   "long_description": "Plays Duke Nukem 3D .grp files from internal storage or SD card. Place them in /roms/duke3d/. Uses ducalex's retro-go port. Supports zipped grp files too.",
   "fullname": "com.micropythonos.duke_launcher",
-  "version": "0.3.5",
+  "version": "0.5.0",
   "category": "game",
   "activities": [
     {
@@ -258,8 +258,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.duke_launcher/icons/com.micropythonos.duke_launcher_0.3.5_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.duke_launcher/mpks/com.micropythonos.duke_launcher_0.3.5.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.duke_launcher/icons/com.micropythonos.duke_launcher_0.5.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.duke_launcher/mpks/com.micropythonos.duke_launcher_0.5.0.mpk"
 }
 ,{
   "name": "ESPNowChat",
@@ -416,7 +416,7 @@
   "short_description": "Chat using LoRa",
   "long_description": "Send messages back and forth with your friends using LoRa.",
   "fullname": "com.micropythonos.lora_chat",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "category": "communication",
   "activities": [
     {
@@ -430,8 +430,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/icons/com.micropythonos.lora_chat_0.3.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/mpks/com.micropythonos.lora_chat_0.3.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/icons/com.micropythonos.lora_chat_0.3.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.lora_chat/mpks/com.micropythonos.lora_chat_0.3.3.mpk"
 }
 ,{
   "name": "Memory",
@@ -462,7 +462,7 @@
   "short_description": "Player audio files",
   "long_description": "Traverse around the filesystem and play audio files that you select.",
   "fullname": "com.micropythonos.musicplayer",
-  "version": "0.4.4",
+  "version": "0.5.0",
   "category": "audio",
   "activities": [
     {
@@ -490,8 +490,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.4.4_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.4.4.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.5.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.musicplayer/mpks/com.micropythonos.musicplayer_0.5.0.mpk"
 }
 ,{
   "name": "Nostr Chat",
@@ -556,7 +556,7 @@
   "short_description": "Classic 8-bit and handheld games",
   "long_description": "Plays NES and Gameboy ROMs from storage or SD card. Place in /roms/nes/ or /roms/gb/. Uses retro-go. Zipped ROMs supported.",
   "fullname": "com.micropythonos.retrocore_launcher",
-  "version": "0.5.3",
+  "version": "0.7.0",
   "category": "game",
   "activities": [
     {
@@ -570,8 +570,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.retrocore_launcher/icons/com.micropythonos.retrocore_launcher_0.5.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.retrocore_launcher/mpks/com.micropythonos.retrocore_launcher_0.5.3.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.retrocore_launcher/icons/com.micropythonos.retrocore_launcher_0.7.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.retrocore_launcher/mpks/com.micropythonos.retrocore_launcher_0.7.0.mpk"
 }
 ,{
   "name": "ScanBluetooth",
@@ -648,7 +648,7 @@
   "short_description": "Sort emojis into matching tubes",
   "long_description": "A water-sort style puzzle. Move emoji tokens between tubes until each tube contains only one kind of emoji. Levels get progressively harder.",
   "fullname": "com.micropythonos.sorter",
-  "version": "1.0.5",
+  "version": "1.2.0",
   "category": "game",
   "activities": [
     {
@@ -662,8 +662,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.0.5_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.0.5.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.2.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.sorter/mpks/com.micropythonos.sorter_1.2.0.mpk"
 }
 ,{
   "name": "Sound Recorder",
