@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apps — MicroPythonOS App Store</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Roboto', system-ui, sans-serif;
+    background: #F8EDE3; color: #1A2E44;
+    display: flex; justify-content: center;
+    min-height: 100vh; padding: 20px;
+}
+.box {
+    background: #fff; border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    padding: 32px; max-width: 560px; width: 100%;
+    height: fit-content;
+}
+.head { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+.head img { width: 64px; height: 64px; border-radius: 12px; image-rendering: pixelated; }
+h1 { font-size: 1.6rem; color: #0A4D68; }
+.publisher { color: #5a6b7d; font-size: 0.95rem; }
+.meta { color: #5a6b7d; font-size: 0.9rem; margin: 10px 0 16px; }
+.meta span { margin-right: 14px; }
+p { font-size: 1.05rem; line-height: 1.55; margin-bottom: 12px; overflow-wrap: anywhere; }
+.qr-section {
+    text-align: center; background: #F8EDE3;
+    border-radius: 12px; padding: 20px; margin: 18px 0;
+}
+.qr-section svg { width: 200px; height: 200px; max-width: 100%; }
+.qr-hint { font-size: 0.95rem; color: #1A2E44; margin-top: 10px; }
+a { color: #FF6B6B; font-weight: 500; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
+.btn {
+    display: inline-block; background: #0A4D68; color: #fff;
+    padding: 10px 18px; border-radius: 8px; font-size: 0.95rem;
+}
+.btn.secondary { background: #FF6B6B; }
+.foot { margin-top: 20px; font-size: 0.85rem; color: #5a6b7d; }
+.foot code { overflow-wrap: anywhere; word-break: break-all; }
+.applist { list-style: none; }
+.applist li { border-bottom: 1px solid #eee; }
+.applist a { display: flex; align-items: center; gap: 12px; padding: 10px 4px; color: #1A2E44; }
+.applist img { width: 40px; height: 40px; border-radius: 8px; image-rendering: pixelated; }
+.applist .desc { color: #5a6b7d; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main class="box">
+  <h1>MicroPythonOS Apps</h1>
+  <p class="meta">Each app page shows a QR code you can scan with the App Store on your device.</p>
+  <ul class="applist">
+  <li><a href="com.micropythonos.bleep/"><img src="../apps/com.micropythonos.bleep/icons/com.micropythonos.bleep_0.2.0_64x64.png" alt="" width="40" height="40"><span><strong>BLEep</strong><div class="desc">Find and befriend nearby BLE users</div></span></a></li>
+  <li><a href="com.micropythonos.breakout/"><img src="../apps/com.micropythonos.breakout/icons/com.micropythonos.breakout_0.6.0_64x64.png" alt="" width="40" height="40"><span><strong>Breakout</strong><div class="desc">Classic Breakout game</div></span></a></li>
+  <li><a href="com.micropythonos.camera/"><img src="../apps/com.micropythonos.camera/icons/com.micropythonos.camera_0.4.1_64x64.png" alt="" width="40" height="40"><span><strong>Camera</strong><div class="desc">Camera with QR decoding</div></span></a></li>
+  <li><a href="cz.ucw.pavel.columns/"><img src="../apps/cz.ucw.pavel.columns/icons/cz.ucw.pavel.columns_0.3.3_64x64.png" alt="" width="40" height="40"><span><strong>Columns</strong><div class="desc">Falling columns game</div></span></a></li>
+  <li><a href="com.micropythonos.confetti/"><img src="../apps/com.micropythonos.confetti/icons/com.micropythonos.confetti_0.3.3_64x64.png" alt="" width="40" height="40"><span><strong>Confetti</strong><div class="desc">Just shows confetti</div></span></a></li>
+  <li><a href="com.micropythonos.connect4/"><img src="../apps/com.micropythonos.connect4/icons/com.micropythonos.connect4_0.4.1_64x64.png" alt="" width="40" height="40"><span><strong>Connect 4</strong><div class="desc">Classic Connect 4 game</div></span></a></li>
+  <li><a href="com.micropythonos.dj_addon/"><img src="../apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.3.6_64x64.png" alt="" width="40" height="40"><span><strong>DJ Addon</strong><div class="desc">DJ Addon demo</div></span></a></li>
+  <li><a href="com.micropythonos.doom_launcher/"><img src="../apps/com.micropythonos.doom_launcher/icons/com.micropythonos.doom_launcher_0.6.1_64x64.png" alt="" width="40" height="40"><span><strong>Doom Launcher</strong><div class="desc">Legendary 3D shooter</div></span></a></li>
+  <li><a href="com.micropythonos.draw/"><img src="../apps/com.micropythonos.draw/icons/com.micropythonos.draw_0.3.2_64x64.png" alt="" width="40" height="40"><span><strong>Draw</strong><div class="desc">Simple drawing app</div></span></a></li>
+  <li><a href="com.micropythonos.duke_launcher/"><img src="../apps/com.micropythonos.duke_launcher/icons/com.micropythonos.duke_launcher_0.5.1_64x64.png" alt="" width="40" height="40"><span><strong>Duke Nukem 3D</strong><div class="desc">Legendary 3D shooter</div></span></a></li>
+  <li><a href="com.micropythonos.sorter/"><img src="../apps/com.micropythonos.sorter/icons/com.micropythonos.sorter_1.2.0_64x64.png" alt="" width="40" height="40"><span><strong>Emoji Sort</strong><div class="desc">Sort emojis into matching tubes</div></span></a></li>
+  <li><a href="com.micropythonos.espnow_chat/"><img src="../apps/com.micropythonos.espnow_chat/icons/com.micropythonos.espnow_chat_0.3.1_64x64.png" alt="" width="40" height="40"><span><strong>ESPNowChat</strong><div class="desc">ESPNow Chat</div></span></a></li>
+  <li><a href="cz.ucw.pavel.floodit/"><img src="../apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.3.3_64x64.png" alt="" width="40" height="40"><span><strong>Floodit</strong><div class="desc">Simple game with colors.</div></span></a></li>
+  <li><a href="cz.ucw.pavel.gyro/"><img src="../apps/cz.ucw.pavel.gyro/icons/cz.ucw.pavel.gyro_0.2.2_64x64.png" alt="" width="40" height="40"><span><strong>Gyro</strong><div class="desc">Gyro</div></span></a></li>
+  <li><a href="com.micropythonos.helloworld/"><img src="../apps/com.micropythonos.helloworld/icons/com.micropythonos.helloworld_0.2.0_64x64.png" alt="" width="40" height="40"><span><strong>HelloWorld</strong><div class="desc">Minimal app</div></span></a></li>
+  <li><a href="com.micropythonos.imageview/"><img src="../apps/com.micropythonos.imageview/icons/com.micropythonos.imageview_0.4.2_64x64.png" alt="" width="40" height="40"><span><strong>Image View</strong><div class="desc">Image Viewer</div></span></a></li>
+  <li><a href="com.micropythonos.imu/"><img src="../apps/com.micropythonos.imu/icons/com.micropythonos.imu_0.3.1_64x64.png" alt="" width="40" height="40"><span><strong>IMU</strong><div class="desc">Inertial Measurement Unit Visualization</div></span></a></li>
+  <li><a href="com.micropythonos.ir_remote/"><img src="../apps/com.micropythonos.ir_remote/icons/com.micropythonos.ir_remote_0.4.0_64x64.png" alt="" width="40" height="40"><span><strong>IR Remote</strong><div class="desc">Send IR commands</div></span></a></li>
+  <li><a href="com.lightningpiggy.displaywallet/"><img src="../apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.2_64x64.png" alt="" width="40" height="40"><span><strong>Lightning Piggy</strong><div class="desc">Display wallet that shows balance, transactions, receive QR code etc.</div></span></a></li>
+  <li><a href="com.micropythonos.lights_out/"><img src="../apps/com.micropythonos.lights_out/icons/com.micropythonos.lights_out_1.2.2_64x64.png" alt="" width="40" height="40"><span><strong>Lights Out</strong><div class="desc">Classic Lights Out puzzle game</div></span></a></li>
+  <li><a href="com.micropythonos.lora_chat/"><img src="../apps/com.micropythonos.lora_chat/icons/com.micropythonos.lora_chat_0.3.3_64x64.png" alt="" width="40" height="40"><span><strong>LoRa Chat</strong><div class="desc">Chat using LoRa</div></span></a></li>
+  <li><a href="com.micropythonos.memory/"><img src="../apps/com.micropythonos.memory/icons/com.micropythonos.memory_1.4.3_64x64.png" alt="" width="40" height="40"><span><strong>Memory</strong><div class="desc">Classic card memory game</div></span></a></li>
+  <li><a href="com.micropythonos.musicplayer/"><img src="../apps/com.micropythonos.musicplayer/icons/com.micropythonos.musicplayer_0.5.0_64x64.png" alt="" width="40" height="40"><span><strong>Music Player</strong><div class="desc">Player audio files</div></span></a></li>
+  <li><a href="cz.ucw.pavel.navstar/"><img src="../apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.2.2_64x64.png" alt="" width="40" height="40"><span><strong>Navstar</strong><div class="desc">Simple navigation app.</div></span></a></li>
+  <li><a href="com_micropythonos_nostr/"><img src="../apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_1.0.1_64x64.png" alt="" width="40" height="40"><span><strong>Nostr Chat</strong><div class="desc">Nostr</div></span></a></li>
+  <li><a href="com.quasikili.quasibird/"><img src="../apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.3.2_64x64.png" alt="" width="40" height="40"><span><strong>Quasi Bird</strong><div class="desc">Bird Game</div></span></a></li>
+  <li><a href="com.quasikili.quasicalculator/"><img src="../apps/com.quasikili.quasicalculator/icons/com.quasikili.quasicalculator_0.2.2_64x64.png" alt="" width="40" height="40"><span><strong>Quasi Calculator</strong><div class="desc">Scientific and Standard Calculator</div></span></a></li>
+  <li><a href="com.quasikili.quasinametag/"><img src="../apps/com.quasikili.quasinametag/icons/com.quasikili.quasinametag_0.3.2_64x64.png" alt="" width="40" height="40"><span><strong>Quasi Nametag</strong><div class="desc">Digital Nametag Display</div></span></a></li>
+  <li><a href="com.quasikili.quasi_clock/"><img src="../apps/com.quasikili.quasi_clock/icons/com.quasikili.quasi_clock_0.1.1_64x64.png" alt="" width="40" height="40"><span><strong>QuasiClock</strong><div class="desc">Flipclock styled time display</div></span></a></li>
+  <li><a href="com.micropythonos.repl_shell/"><img src="../apps/com.micropythonos.repl_shell/icons/com.micropythonos.repl_shell_0.1.1_64x64.png" alt="" width="40" height="40"><span><strong>REPL Shell</strong><div class="desc">Interactive Python REPL shell</div></span></a></li>
+  <li><a href="com.micropythonos.retrocore_launcher/"><img src="../apps/com.micropythonos.retrocore_launcher/icons/com.micropythonos.retrocore_launcher_0.7.1_64x64.png" alt="" width="40" height="40"><span><strong>Retro Core Launcher</strong><div class="desc">Classic 8-bit and handheld games</div></span></a></li>
+  <li><a href="com.micropythonos.scan_bluetooth/"><img src="../apps/com.micropythonos.scan_bluetooth/icons/com.micropythonos.scan_bluetooth_0.4.1_64x64.png" alt="" width="40" height="40"><span><strong>ScanBluetooth</strong><div class="desc">Scan Bluetooth</div></span></a></li>
+  <li><a href="com.micropythonos.showbattery/"><img src="../apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.5.0_64x64.png" alt="" width="40" height="40"><span><strong>Show Battery</strong><div class="desc">Minimal app</div></span></a></li>
+  <li><a href="com.micropythonos.showfonts/"><img src="../apps/com.micropythonos.showfonts/icons/com.micropythonos.showfonts_0.4.1_64x64.png" alt="" width="40" height="40"><span><strong>Show Fonts</strong><div class="desc">Show installed fonts</div></span></a></li>
+  <li><a href="com.micropythonos.soundrecorder/"><img src="../apps/com.micropythonos.soundrecorder/icons/com.micropythonos.soundrecorder_0.4.2_64x64.png" alt="" width="40" height="40"><span><strong>Sound Recorder</strong><div class="desc">Record audio from microphone</div></span></a></li>
+  <li><a href="com.micropythonos.space_invaders/"><img src="../apps/com.micropythonos.space_invaders/icons/com.micropythonos.space_invaders_0.3.3_64x64.png" alt="" width="40" height="40"><span><strong>Space Invaders</strong><div class="desc">Classic space invaders shooter</div></span></a></li>
+  <li><a href="com.micropythonos.texteditor/"><img src="../apps/com.micropythonos.texteditor/icons/com.micropythonos.texteditor_0.2.1_64x64.png" alt="" width="40" height="40"><span><strong>Text Editor</strong><div class="desc">Edit text files</div></span></a></li>
+  <li><a href="com.linuxbe.thefreelanternplayer/"><img src="../apps/com.linuxbe.thefreelanternplayer/icons/com.linuxbe.thefreelanternplayer_1.0.3_64x64.png" alt="" width="40" height="40"><span><strong>The Free Lantern</strong><div class="desc">Plays music from The Free Lantern</div></span></a></li>
+  <li><a href="com.micropythonos.time_of_flight/"><img src="../apps/com.micropythonos.time_of_flight/icons/com.micropythonos.time_of_flight_0.3.2_64x64.png" alt="" width="40" height="40"><span><strong>Time of Flight</strong><div class="desc">Time-of-flight sensor demo</div></span></a></li>
+  <li><a href="com.quasikili.wikipedia/"><img src="../apps/com.quasikili.wikipedia/icons/com.quasikili.wikipedia_0.1.0_64x64.png" alt="" width="40" height="40"><span><strong>Wikipedia</strong><div class="desc">An app to search and read Wikipedia articles.</div></span></a></li>
+  </ul>
+</main>
+</body>
+</html>
