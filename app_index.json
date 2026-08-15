@@ -37,13 +37,13 @@
   ],
   "category": "audio",
   "fullname": "com.linuxbe.thefreelanternplayer",
-  "icon_url": "https://apps.micropythonos.com/apps/com.linuxbe.thefreelanternplayer/icons/com.linuxbe.thefreelanternplayer_1.0.3_64x64.png",
+  "icon_url": "https://apps.micropythonos.com/apps/com.linuxbe.thefreelanternplayer/icons/com.linuxbe.thefreelanternplayer_1.0.6_64x64.png",
   "long_description": "Streams music from The Free Lantern website or from local SD card.",
   "name": "The Free Lantern",
   "publisher": "LinuxBE",
   "short_description": "Plays music from The Free Lantern",
-  "version": "1.0.3",
-  "download_url": "https://apps.micropythonos.com/apps/com.linuxbe.thefreelanternplayer/mpks/com.linuxbe.thefreelanternplayer_1.0.3.mpk"
+  "version": "1.0.6",
+  "download_url": "https://apps.micropythonos.com/apps/com.linuxbe.thefreelanternplayer/mpks/com.linuxbe.thefreelanternplayer_1.0.6.mpk"
 }
 ,{
   "name": "BLEep",
@@ -175,7 +175,7 @@
   "short_description": "DJ Addon demo",
   "long_description": "Shows off the capabilities of the Fri3d DJ Addon 2026.",
   "fullname": "com.micropythonos.dj_addon",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "category": "development",
   "activities": [
     {
@@ -189,8 +189,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.3.6_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.6.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/icons/com.micropythonos.dj_addon_0.3.7_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.7.mpk"
 }
 ,{
   "name": "Doom Launcher",
