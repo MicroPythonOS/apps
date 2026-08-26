@@ -22,9 +22,13 @@ Output is deterministic; commit the resulting app/ tree.
 
 NOTE: run on a case-sensitive filesystem (any Linux). On macOS the
 lowercase and uppercase directories collapse into one and only a
-single spelling survives to be committed.
+single spelling survives to be committed. The same applies to plain
+checkouts: cloning this repo on a case-insensitive filesystem (default
+macOS/Windows) collapses the spellings and leaves a permanently dirty
+tree - do app/ work from Linux or a case-sensitive volume.
 """
 
+import html
 import json
 import os
 import shutil
@@ -75,7 +79,8 @@ def main():
     req = urllib.request.Request(LIST_URL, headers={"User-Agent": "mpos-app-redirects/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         items = json.load(r)
-    slugs = sorted({p["slug"] for p in items})
+    by_slug = {p["slug"]: p for p in items}
+    slugs = sorted(by_slug)
     if not slugs:
         sys.exit("BadgeHub returned no apps; refusing to empty the tree")
 
@@ -88,8 +93,8 @@ def main():
     pages = 0
     for slug in slugs:
         target = TARGET.format(slug=slug)
-        name = slug  # summaries carry names too, but the slug is unambiguous
-        for spelling in {slug, slug.upper()}:
+        name = html.escape(by_slug[slug].get("name") or slug)
+        for spelling in {slug, slug.upper(), slug.lower()}:
             d = os.path.join(root, spelling)
             os.makedirs(d, exist_ok=True)
             with open(os.path.join(d, "index.html"), "w") as f:
