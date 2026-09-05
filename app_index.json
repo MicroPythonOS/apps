@@ -1,11 +1,11 @@
 [
 {
   "name": "Lightning Piggy",
-  "publisher": "LightningPiggy Foundation",
+  "publisher": "The Lightning Piggy Project",
   "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
   "long_description": "See https://www.LightningPiggy.com",
   "fullname": "com.lightningpiggy.displaywallet",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "category": "finance",
   "activities": [
     {
@@ -19,8 +19,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.2.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.3.mpk"
 }
 ,{
   "name": "BLEep",
