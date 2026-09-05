@@ -1,7 +1,7 @@
 [
 {
   "name": "Lightning Piggy",
-  "publisher": "LightningPiggy Foundation",
+  "publisher": "The Lightning Piggy Project",
   "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
   "long_description": "See https://www.LightningPiggy.com",
   "fullname": "com.lightningpiggy.displaywallet",
