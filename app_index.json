@@ -499,7 +499,7 @@
   "short_description": "Nostr",
   "long_description": "Notest and Other Stuff Transmitted by Relays",
   "fullname": "com_micropythonos_nostr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "category": "communication",
   "activities": [
     {
@@ -524,8 +524,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_1.0.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_1.0.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_1.0.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_1.0.2.mpk"
 }
 ,{
   "name": "REPL Shell",
@@ -602,7 +602,7 @@
   "short_description": "Minimal app",
   "long_description": "Demonstrates the simplest app.",
   "fullname": "com.micropythonos.showbattery",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "category": "utility",
   "activities": [
     {
@@ -616,8 +616,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.5.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.5.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/icons/com.micropythonos.showbattery_0.5.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.showbattery/mpks/com.micropythonos.showbattery_0.5.1.mpk"
 }
 ,{
   "name": "Show Fonts",
@@ -917,7 +917,7 @@
   "short_description": "Simple game with colors.",
   "long_description": "Game with colors, where objective is to turn whole board into single color in minimum number of steps.",
   "fullname": "cz.ucw.pavel.floodit",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "category": "game",
   "activities": [
     {
@@ -931,8 +931,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.3.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/mpks/cz.ucw.pavel.floodit_0.3.3.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/icons/cz.ucw.pavel.floodit_0.3.4_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.floodit/mpks/cz.ucw.pavel.floodit_0.3.4.mpk"
 }
 ,{
   "name": "Gyro",
@@ -979,5 +979,39 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.2.2_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.2.2.mpk"
+}
+,{
+  "name": "MeshCore",
+  "publisher": "lucid-void",
+  "short_description": "MeshCore LoRa mesh client",
+  "long_description": "A MeshCore client over LoRa for the Fri3d Camp 2026 badge (MicroPythonOS). REQUIRES badge coprocessor firmware 2.0.2 or newer, which means MicroPythonOS 0.17.0 or newer: on older firmware, resetting the LoRa radio can crash the coprocessor and black-screen the badge until it is switched off and on again. Update your badge before enabling the radio service; if OSUpdate reports the badge is already up to date, see the README. Learns companion nodes from adverts; add one as a contact to exchange encrypted direct messages (X25519 + AES-128 + HMAC) with delivery acknowledgements. Send and receive public # channel messages, interoperable with the MeshCore apps. Generates an on-device Ed25519 identity, floods signed adverts, and shares your contact as a QR. A Me-tab toggle runs the LoRa node in the background (receiving while the app is closed) with automatic radio recovery. By lucid-void. An independent, community-built client: not affiliated with or endorsed by the MeshCore project. MESHCORE is a trademark of its owner.",
+  "fullname": "org.fri3d.meshcore",
+  "version": "0.6.0",
+  "category": "communication",
+  "activities": [
+    {
+      "entrypoint": "meshcore.py",
+      "classname": "MeshCoreHome",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "entrypoint": "meshcore_boot_service.py",
+      "classname": "MeshCoreBootService",
+      "intent_filters": [
+        {
+          "action": "boot_completed"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/org.fri3d.meshcore/icons/org.fri3d.meshcore_0.6.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/org.fri3d.meshcore/mpks/org.fri3d.meshcore_0.6.0.mpk"
 }
 ]
