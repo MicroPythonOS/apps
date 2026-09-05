@@ -23,29 +23,6 @@
   "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.2.mpk"
 }
 ,{
-  "activities": [
-    {
-      "classname": "AlbumPlayer",
-      "entrypoint": "assets/tfl_player.py",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "category": "audio",
-  "fullname": "com.linuxbe.thefreelanternplayer",
-  "icon_url": "https://apps.micropythonos.com/apps/com.linuxbe.thefreelanternplayer/icons/com.linuxbe.thefreelanternplayer_1.0.6_64x64.png",
-  "long_description": "Streams music from The Free Lantern website or from local SD card.",
-  "name": "The Free Lantern",
-  "publisher": "LinuxBE",
-  "short_description": "Plays music from The Free Lantern",
-  "version": "1.0.6",
-  "download_url": "https://apps.micropythonos.com/apps/com.linuxbe.thefreelanternplayer/mpks/com.linuxbe.thefreelanternplayer_1.0.6.mpk"
-}
-,{
   "name": "BLEep",
   "publisher": "MicroPythonOS",
   "short_description": "Find and befriend nearby BLE users",
@@ -979,39 +956,5 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.2.2_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.2.2.mpk"
-}
-,{
-  "name": "MeshCore",
-  "publisher": "lucid-void",
-  "short_description": "MeshCore LoRa mesh client",
-  "long_description": "A MeshCore client over LoRa for the Fri3d Camp 2026 badge (MicroPythonOS). REQUIRES badge coprocessor firmware 2.0.2 or newer, which means MicroPythonOS 0.17.0 or newer: on older firmware, resetting the LoRa radio can crash the coprocessor and black-screen the badge until it is switched off and on again. Update your badge before enabling the radio service; if OSUpdate reports the badge is already up to date, see the README. Learns companion nodes from adverts; add one as a contact to exchange encrypted direct messages (X25519 + AES-128 + HMAC) with delivery acknowledgements. Send and receive public # channel messages, interoperable with the MeshCore apps. Generates an on-device Ed25519 identity, floods signed adverts, and shares your contact as a QR. A Me-tab toggle runs the LoRa node in the background (receiving while the app is closed) with automatic radio recovery. By lucid-void. An independent, community-built client: not affiliated with or endorsed by the MeshCore project. MESHCORE is a trademark of its owner.",
-  "fullname": "org.fri3d.meshcore",
-  "version": "0.6.0",
-  "category": "communication",
-  "activities": [
-    {
-      "entrypoint": "meshcore.py",
-      "classname": "MeshCoreHome",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "services": [
-    {
-      "entrypoint": "meshcore_boot_service.py",
-      "classname": "MeshCoreBootService",
-      "intent_filters": [
-        {
-          "action": "boot_completed"
-        }
-      ]
-    }
-  ],
-  "icon_url": "https://apps.micropythonos.com/apps/org.fri3d.meshcore/icons/org.fri3d.meshcore_0.6.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/org.fri3d.meshcore/mpks/org.fri3d.meshcore_0.6.0.mpk"
 }
 ]
