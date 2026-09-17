@@ -5,7 +5,7 @@
   "short_description": "Display wallet that shows balance, transactions, receive QR code etc.",
   "long_description": "See https://www.LightningPiggy.com",
   "fullname": "com.lightningpiggy.displaywallet",
-  "version": "0.7.3",
+  "version": "0.7.7",
   "category": "finance",
   "activities": [
     {
@@ -19,8 +19,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.3_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.3.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/icons/com.lightningpiggy.displaywallet_0.7.7_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.lightningpiggy.displaywallet/mpks/com.lightningpiggy.displaywallet_0.7.7.mpk"
 }
 ,{
   "name": "BLEep",
@@ -749,6 +749,29 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/icons/com.micropythonos.time_of_flight_0.3.2_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/mpks/com.micropythonos.time_of_flight_0.3.2.mpk"
+}
+,{
+  "name": "Video Player",
+  "publisher": "MicroPythonOS",
+  "short_description": "Full-frame refresh benchmark",
+  "long_description": "Draws raw RGB565 frames in a loop and reports FPS. Future video player.",
+  "fullname": "com.micropythonos.video_player",
+  "version": "0.1.0",
+  "category": "graphics",
+  "activities": [
+    {
+      "entrypoint": "video_player.py",
+      "classname": "VideoPlayer",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/icons/com.micropythonos.video_player_0.1.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/mpks/com.micropythonos.video_player_0.1.0.mpk"
 }
 ,{
   "name": "Quasi Bird",
