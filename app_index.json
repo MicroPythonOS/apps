@@ -779,7 +779,7 @@
   "short_description": "Bird Game",
   "long_description": "A fun bird flying game with smooth physics. Tap to fly!",
   "fullname": "com.quasikili.quasibird",
-  "version": "0.3.2",
+  "version": "0.4.1",
   "category": "game",
   "activities": [
     {
@@ -793,8 +793,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.3.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.3.2.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.4.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.4.1.mpk"
 }
 ,{
   "name": "Quasi Calculator",
