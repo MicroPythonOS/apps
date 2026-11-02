@@ -476,7 +476,7 @@
   "short_description": "Nostr",
   "long_description": "Notest and Other Stuff Transmitted by Relays",
   "fullname": "com_micropythonos_nostr",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "category": "communication",
   "activities": [
     {
@@ -501,8 +501,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_1.0.2_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_1.0.2.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/icons/com_micropythonos_nostr_1.1.0_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com_micropythonos_nostr/mpks/com_micropythonos_nostr_1.1.0.mpk"
 }
 ,{
   "name": "REPL Shell",
