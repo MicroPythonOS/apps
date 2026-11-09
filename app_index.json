@@ -786,7 +786,7 @@
   "short_description": "Bird Game",
   "long_description": "A fun bird flying game with smooth physics. Tap to fly!",
   "fullname": "com.quasikili.quasibird",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "category": "game",
   "activities": [
     {
@@ -800,8 +800,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.4.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.4.1.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/icons/com.quasikili.quasibird_0.4.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.quasibird/mpks/com.quasikili.quasibird_0.4.2.mpk"
 }
 ,{
   "name": "Quasi Calculator",
@@ -889,11 +889,11 @@
   "fullname": "com.quasikili.wikipedia",
   "name": "Wikipedia",
   "publisher": "QuasiKili",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "short_description": "An app to search and read Wikipedia articles.",
   "long_description": "An app to search and read Wikipedia articles.",
-  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/icons/com.quasikili.wikipedia_0.1.0_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/mpks/com.quasikili.wikipedia_0.1.0.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/icons/com.quasikili.wikipedia_0.1.1_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.quasikili.wikipedia/mpks/com.quasikili.wikipedia_0.1.1.mpk"
 }
 ,{
   "name": "Columns",
