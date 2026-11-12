@@ -761,9 +761,9 @@
   "name": "Video Player",
   "publisher": "MicroPythonOS",
   "short_description": "Plays MJPEG video (AVI or raw) with sound",
-  "long_description": "Plays MJPEG video at its recorded frame rate in a dedicated decode-and-present loop: read, decode, present, pace, dropping frames to keep real time. Frames are shown 1:1, never scaled. Opens .avi files with the sound inside (MJPEG video plus 8/16-bit PCM or IMA ADPCM audio) and raw .mjpeg/.mjpg streams with an optional WAV sidecar of the same name. Tap the picture to pause and play; a control bar appears with a scrub bar for jumping anywhere in the clip, with <<, >> (fifteen seconds), restart and close, and hides again after three seconds. The A button pauses, B/Y seek and X leaves. Picking a clip from the SD card is one tap, and an unsupported container or codec says which one it is instead of failing silently. Launching without a clip opens the file picker; the benchmark buttons measure the panel's frame rate.",
+  "long_description": "Plays MJPEG video at its recorded frame rate in a dedicated decode-and-present loop: read, decode, present, pace, dropping frames to keep real time. Frames are shown 1:1, never scaled. Opens .avi files with the sound inside (MJPEG video plus 8/16-bit PCM or IMA ADPCM audio) and raw .mjpeg/.mjpg streams with an optional WAV sidecar of the same name. Tap the picture to pause and play; a control bar appears with a scrub bar for jumping anywhere in the clip, with <<, >> (fifteen seconds), restart and close, and hides again after three seconds. The A button pauses, B/Y seek and X leaves. Pick one clip, several, or a whole folder: a folder plays every clip in it in name order, so the picker doubles as a playlist. Picking a clip from the SD card is one tap, and an unsupported container or codec says which one it is instead of failing silently. Launching without a clip opens the file picker; the benchmark buttons measure the panel's frame rate.",
   "fullname": "com.micropythonos.video_player",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "category": "graphics",
   "activities": [
     {
@@ -786,8 +786,8 @@
       ]
     }
   ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/icons/com.micropythonos.video_player_0.4.5_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/mpks/com.micropythonos.video_player_0.4.5.mpk"
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/icons/com.micropythonos.video_player_0.4.6_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/mpks/com.micropythonos.video_player_0.4.6.mpk"
 }
 ,{
   "name": "Quasi Bird",
