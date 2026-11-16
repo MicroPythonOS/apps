@@ -758,38 +758,6 @@
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.time_of_flight/mpks/com.micropythonos.time_of_flight_0.3.2.mpk"
 }
 ,{
-  "name": "Video Player",
-  "publisher": "MicroPythonOS",
-  "short_description": "Plays MJPEG video (AVI or raw) with sound",
-  "long_description": "Plays MJPEG video at its recorded frame rate in a dedicated decode-and-present loop: read, decode, present, pace, dropping frames to keep real time. Frames are shown 1:1, never scaled. Opens .avi files with the sound inside (MJPEG video plus 8/16-bit PCM or IMA ADPCM audio) and raw .mjpeg/.mjpg streams with an optional WAV sidecar of the same name. Tap the picture to pause and play; a control bar appears with a scrub bar for jumping anywhere in the clip, with <<, >> (fifteen seconds), restart and close, and hides again after three seconds. The A button pauses, B/Y seek and X leaves. Pick one clip, several, or a whole folder: a folder plays every clip in it in name order, so the picker doubles as a playlist. Picking a clip from the SD card is one tap, and an unsupported container or codec says which one it is instead of failing silently. Launching without a clip opens the file picker; the benchmark buttons measure the panel's frame rate.",
-  "fullname": "com.micropythonos.video_player",
-  "version": "0.4.7",
-  "category": "graphics",
-  "activities": [
-    {
-      "entrypoint": "video_player.py",
-      "classname": "VideoPlayer",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        },
-        {
-          "action": "view",
-          "mimeType": "video/x-motion-jpeg",
-          "pathPattern": [
-            ".avi",
-            ".mjpeg",
-            ".mjpg"
-          ]
-        }
-      ]
-    }
-  ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/icons/com.micropythonos.video_player_0.4.7_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.video_player/mpks/com.micropythonos.video_player_0.4.7.mpk"
-}
-,{
   "name": "Quasi Bird",
   "publisher": "QuasiKili",
   "short_description": "Bird Game",
@@ -995,5 +963,58 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/icons/cz.ucw.pavel.navstar_0.2.2_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/cz.ucw.pavel.navstar/mpks/cz.ucw.pavel.navstar_0.2.2.mpk"
+}
+,{
+  "name": "Media Player",
+  "publisher": "MicroPythonOS",
+  "short_description": "Plays video and audio files",
+  "long_description": "One player for the badge's media. Video opens .avi with the sound inside (MJPEG plus 8/16-bit PCM or IMA ADPCM audio) or raw .mjpeg/.mjpg streams with an optional WAV sidecar, shown 1:1 at the clip's recorded frame rate, dropping frames to keep real time. Audio plays .wav and .mp3 through AudioManager, with volume from the audio settings, and .rtttl ringtones through the buzzer. Tap the picture or the music note to pause and play; a control bar appears with a scrub bar for jumping anywhere, with <<, >> (fifteen seconds), restart, play/pause and close. For audio the bar stays on screen and seeking is sample-accurate on WAV and frame-accurate on MP3; RTTTL has no sample position, so it shows restart and close only. The A button pauses, B/Y seek and X leaves. Pick one file, several, or a whole folder: a folder plays everything in it in name order, so the picker doubles as a playlist, and video, audio and ringtones can be mixed. An unsupported container or codec says which one it is instead of failing silently. Launching without a file opens the picker; the benchmark buttons measure the panel's frame rate.",
+  "fullname": "com.micropythonos.media_player",
+  "version": "0.5.3",
+  "category": "graphics",
+  "activities": [
+    {
+      "entrypoint": "media_player.py",
+      "classname": "MediaPlayer",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        },
+        {
+          "action": "view",
+          "mimeType": "video/x-motion-jpeg",
+          "pathPattern": [
+            ".avi",
+            ".mjpeg",
+            ".mjpg"
+          ]
+        },
+        {
+          "action": "view",
+          "mimeType": "audio/wav",
+          "pathPattern": [
+            ".wav"
+          ]
+        },
+        {
+          "action": "view",
+          "mimeType": "audio/mpeg",
+          "pathPattern": [
+            ".mp3"
+          ]
+        },
+        {
+          "action": "view",
+          "mimeType": "audio/rtttl",
+          "pathPattern": [
+            ".rtttl"
+          ]
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.media_player/icons/com.micropythonos.media_player_0.5.3_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.media_player/mpks/com.micropythonos.media_player_0.5.3.mpk"
 }
 ]
