@@ -170,29 +170,6 @@
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.dj_addon/mpks/com.micropythonos.dj_addon_0.3.7.mpk"
 }
 ,{
-  "name": "Doom Launcher",
-  "publisher": "MicroPythonOS",
-  "short_description": "Legendary 3D shooter",
-  "long_description": "Plays Doom 1, 2 and modded .wad files from internal storage or SD card. Place them in /roms/doom/. Uses ducalex's retro-go port of PrBoom. Supports zipped wad files too.",
-  "fullname": "com.micropythonos.doom_launcher",
-  "version": "0.6.1",
-  "category": "game",
-  "activities": [
-    {
-      "entrypoint": "doom_launcher.py",
-      "classname": "DoomLauncher",
-      "intent_filters": [
-        {
-          "action": "main",
-          "category": "launcher"
-        }
-      ]
-    }
-  ],
-  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/icons/com.micropythonos.doom_launcher_0.6.1_64x64.png",
-  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom_launcher/mpks/com.micropythonos.doom_launcher_0.6.1.mpk"
-}
-,{
   "name": "Draw",
   "publisher": "MicroPythonOS",
   "short_description": "Simple drawing app",
@@ -1019,5 +996,36 @@
   ],
   "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.media_player/icons/com.micropythonos.media_player_0.5.4_64x64.png",
   "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.media_player/mpks/com.micropythonos.media_player_0.5.4.mpk"
+}
+,{
+  "name": "Doom",
+  "publisher": "MicroPythonOS",
+  "short_description": "Doom, on a badge or on a desktop",
+  "long_description": "Doom, on a badge or on a desktop. One package, one engine per platform: an ESP32-S3 badge runs the engine from flash as a littlefs2e extent (no executable RAM needed), a desktop runs the native module. The first launch unpacks the bundled shareware WAD into RAM, so expect a short 'Unpacking WAD' screen every time. Includes the shareware episode DOOM1.WAD; the engine is GPL v2 or later and its source is at github.com/MicroPythonOS/MicroPythonOS (c_mpos/doom). Licenses are in the app (hold the menu touch area). On a badge, the app needs a MicroPythonOS with littlefs2e extents; the store lists it for ESP32-S3 badges and x64 desktops.",
+  "fullname": "com.micropythonos.doom",
+  "version": "0.2.2",
+  "category": "game",
+  "native": {
+    "esp32s3": [
+      "esp32s3.xip"
+    ],
+    "x64": [
+      "module_x64.mpy"
+    ]
+  },
+  "activities": [
+    {
+      "entrypoint": "doom.py",
+      "classname": "Doom",
+      "intent_filters": [
+        {
+          "action": "main",
+          "category": "launcher"
+        }
+      ]
+    }
+  ],
+  "icon_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom/icons/com.micropythonos.doom_0.2.2_64x64.png",
+  "download_url": "https://apps.micropythonos.com/apps/com.micropythonos.doom/mpks/com.micropythonos.doom_0.2.2.mpk"
 }
 ]
